@@ -1,0 +1,181 @@
+body {
+	background-image: url("../../img/blazBlueCentralFiction/background.png");
+}
+
+.attackA, .attackB, .attackC, .attackD, .attackDistortionDrive, .attackExceedAccel, .attackAstralHeat {
+	font-weight: bold;
+}
+
+.attackA {
+	color: #DF2729;
+}
+
+.attackB {
+	color: #3FCBE8;
+}
+
+.attackC {
+	color: #2ED494;
+}
+
+.attackD {
+	color: #E0E14D;
+}
+
+.attackDistortionDrive {
+	color: #B37A9B;
+}
+
+.attackExceedAccel {
+	color: #EB659C;
+}
+
+.attackAstralHeat {
+	color: #7FBDDB;
+}
+
+/* Character select sizing */
+
+.ragnaSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/RagnaTheBloodedge.png");
+}
+
+.jinSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/JinKisaragi.png");
+}
+
+.noelSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/NoelVermillion.png");
+}
+
+.rachelSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/RachelAlucard.png");
+}
+
+.taokakaSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Taokaka.png");
+}
+
+.tagerSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/IronTager.png");
+}
+
+.litchiSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/LitchiFayeLing.png");
+}
+
+.arakuneSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Arakune.png");
+}
+
+.bangSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/BangShishigami.png");
+}
+
+.carlSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/CarlClover.png");
+}
+
+.hakumenSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Hakumen.png");
+}
+
+.nuSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Nu13.png");
+}
+
+.tsubakiSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/TsubakiYayoi.png");
+}
+
+.hazamaSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Hazama.png");
+}
+
+.muSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Mu12.png");
+}
+
+.makotoSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/MakotoNanaya.png");
+}
+
+.hellsingSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/ValkenhaynRHellsing.png");
+}
+
+.platinumSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/PlatinumTheTrinity.png");
+}
+
+.reliusSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/ReliusClover.png");
+}
+
+.izayoiSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Izayoi.png");
+}
+
+.amaneSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/AmaneNishiki.png");
+}
+
+.bulletSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Bullet.png");
+}
+
+.azraelSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Azrael.png");
+}
+
+.kaguraSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/KaguraMutsuki.png");
+}
+
+.kokonoeSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Kokonoe.png");
+}
+
+.terumiSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/YuukiTerumi.png");
+}
+
+.celicaSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/CelicaAyatsukiMercury.png");
+}
+
+.lambdaSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Lambda11.png");
+}
+
+.hibikiSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/HibikiKohaku.png");
+}
+
+.nineSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/NineThePhantom.png");
+}
+
+.naotoSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/NaotoKurogane.png");
+}
+
+.izanamiSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Izanami.png");
+}
+
+.susanooSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Susanoo.png");
+}
+
+.esSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Es.png");
+}
+
+.maiSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/MaiNatsume.png");
+}
+
+.jubeiSel {
+	background-image: url("../../img/blazBlueCentralFiction/portraits/chrSelect/Jubei.png");
+}

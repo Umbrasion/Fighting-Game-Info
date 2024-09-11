@@ -1,0 +1,792 @@
+body {
+	background: no-repeat fixed top #19191E;
+	background-size: 100%;
+	font-family: Arial;
+	font-size: 18px;
+	margin: 30px 16px;
+}
+
+a {
+	color: #438CF2;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: #346FBC;
+}
+
+.contentContainer {
+	background-color: #2A2A33;
+	color: #EDEDF4;
+	width: 80%;
+	height: fit-content;
+	margin: auto;
+	border: 4px solid #EDEDF4;
+	border-radius: 8px;
+}
+
+header {
+	border-bottom: 4px solid #EDEDF4;
+	height: fit-content;
+}
+
+.noNavContainer {
+	
+}
+
+.titlebar {
+	text-align: center;
+}
+
+.titlebar h1 {
+	border-bottom: none;
+	padding: 20px 0;
+	margin: 0;
+	font-size: 60px
+}
+
+.gameLogo {
+	max-width: 500px;
+	max-height: 300px;
+	padding: 10px
+}
+
+.pageLinks {
+	text-align: center;
+	font-weight: bold;
+	font-size: 0;
+}
+
+.navButton {
+	display: inline-block;
+	width: 25%;
+	height: 50%;
+	text-decoration: none;
+	outline: 2px solid #EDEDF4;
+	outline-offset: -4px;
+}
+
+.navButton:hover {
+	text-decoration: none;
+	outline: 4px solid #EDEDF4;
+}
+
+.navButton div {
+	position: relative;
+	color: #EDEDF4;
+	font-size: 30px;
+}
+
+.contentGrid {
+	display: grid;
+	gap: 0;
+	grid-template-columns: 80% 20%;
+}
+
+main {
+	padding: 20px;
+}
+
+main .goBack {
+	display: block;
+	width: fit-content;
+}
+
+h1 {
+	border-bottom: 2px solid #EDEDF4;
+	font-size: 50px;
+}
+
+.sectionCollapse {
+	
+}
+
+h2 {
+	border-bottom: 1px solid rgba(237, 237, 244, 0.5);
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 32px;
+	margin: 20px 0px;
+}
+
+h4 {
+	font-size: 28px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.navTitle {
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+.gameInfoList {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.inputImage {
+	width: 28px;
+	height: 28px;
+	position: relative;
+	top: 8px;
+}
+
+.showcaseImage {
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+.showcaseImage img {
+	max-width: 300px;
+	border-radius: 5px;
+}
+
+.showcaseImage figcaption {
+	font-size: 14px;
+	color: #939396;
+}
+
+.boxTop {
+	margin-top: 0px;
+}
+
+.boxBottom {
+	margin-bottom: 0px;
+}
+
+main ul ul {
+	padding-left: 20px
+}
+
+.contentSegment {
+	background-color: #373742;
+	border-radius: 6px;
+	padding: 16px;
+	box-shadow: #1A1A1E 5px 5px 5px;
+	margin: 5px 0px 20px 0px;
+}
+
+#characters {
+	margin-bottom: 6px;
+}
+
+.chrSelection {
+	width: fit-content;
+	max-width: 1052px;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	gap: 4px;
+}
+
+.chrPreview {
+	width: 80px;
+	height: 180px;
+	border: 2px solid #556C91;
+	background-color: #435263;
+	background-repeat: no-repeat;
+	transition: all 0.3s;
+}
+
+.chrPreviewSmall {
+	height: 100px;
+}
+
+.chrPreview:hover {
+	background-color: #202B35;
+	transition: all 0.3s;
+	transform: scale(1.05);
+}
+
+.chrPreview div {
+	color: #EDEDF4;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(34, 41, 53, 0.92));
+	width: 100%;
+	height: 100%;
+	position: relative;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s 0.3s, opacity 0.3s;
+}
+
+.chrPreview:hover div {
+	visibility: visible;
+	opacity: 1;
+	transition: visibility 0s, opacity 0.3s;
+}
+
+.chrPreview div span {
+	background-image: none;
+	height: auto;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.moveFollowUp {
+	list-style-type: follow-up;
+}
+
+.followupSegment {
+	margin-left: 28px;
+}
+
+.followupSegment2 {
+	margin-left: 56px;
+}
+
+.segmentOverview {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: auto 332px;
+	background-color: rgba(0, 0, 0, 0);
+	padding: 0px;
+	margin: 0px;
+	box-shadow: none;
+	/*border-bottom: dotted 1px gray;*/
+}
+
+.segmentOverview h3 {
+	margin-top: 0px;
+}
+
+.moveSegment {
+	display: grid;
+	grid-template-columns: auto 250px;
+}
+
+.moveSegment div h5 {
+	margin: 0px;
+	text-align: center;
+}
+
+.moveSegment div ul {
+	padding-left: 18px;
+}
+
+.moveSegment .propContainer .movePropList {
+	font-size: 14px;
+}
+
+.propContainer {
+	padding-left: 10px;
+	border-left: dotted lightgray 1px;
+	margin-left: 10px;
+}
+
+.propContainer ul li {
+	margin-bottom: 4px;
+}
+
+.likeDislike {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 0px;
+}
+
+.likeDislike div h5 {
+	margin: 0px;
+	font-size: inherit;
+	text-align: center;
+	border-bottom: dotted lightgrey 1px;
+}
+
+.likeDislike div ul {
+	margin: 0px;
+	padding: 10px 8px 0px 24px;
+	font-size: 14px;
+}
+
+.portraitContainer {
+	text-align: center;
+}
+
+.nameImage {
+	max-width: 250px;
+	max-height: 120px;
+}
+
+.chrPortrait {
+	max-width: 300px;
+	max-height: 500px;
+	padding-bottom: 4px;
+}
+
+.moveComment {
+	font-size: 14px;
+	color: #939396;
+	margin-top: 8px;
+	float: right;
+}
+
+.chrComment {
+	text-align: center;
+	font-size: 14px;
+	color: #939396;
+	padding-top: 4px;
+	border-top: 1px solid #5F5F70;
+}
+
+.basicNotice {
+	width: calc(100% - 11);
+	padding: 10px;
+	border: solid gray 1px;
+	border-radius: 6px;
+	box-sizing: border-box;
+	margin-top: 8px;
+}
+
+.inputsNotice {
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+#inputExpand {
+	float: right;
+	font-family: Arial;
+	font-size: 14px;
+	padding: 4px;
+	border: 1px solid gray;
+	border-radius: 20px;
+	color: #EDEDF4;
+	background-color: #2A2A33;
+	cursor: pointer;
+	display: block;
+}
+
+#inputExpand:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.movelistList {
+	margin: 10px 0px;
+}
+
+.moveInput {
+	padding: 4px 6px;
+	border: 2px solid gray;
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 0.08)
+}
+
+nav {
+	background-color: #19191E;
+	overflow: clip;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+nav h5 {
+	margin-bottom: 16px;
+}
+
+nav div {
+	overflow: auto;
+	max-height: 100vh;
+	position: sticky;
+	top: 0px;
+}
+
+nav div ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+nav div ul li {
+	font-weight: bold;
+}
+
+nav div ul ul li {
+	font-weight: normal;
+}
+
+nav div ul ul ul li {
+	font-size: 14px;
+}
+
+nav div ul ul, nav div ul ul ul, nav div ul ul ul ul {
+	border-left: solid 1px gray;
+}
+
+nav div ul li, nav div ul ul li, nav div ul ul ul li, nav div ul ul ul ul li {
+	margin: 12px 0px;
+}
+
+nav div ul li a, nav div ul ul li a, nav div ul ul ul li a, nav div ul ul ul ul li a {
+	color: #EDEDF4;
+}
+
+.navNum {
+	margin-right: 10px;
+}
+
+.formToggle {
+	font-size: 16px;
+	color: #EDEDF4;
+	background-color: rgba(0, 0, 0, 0);
+	width: 80px;
+	padding-bottom: 8px;
+	border: none;
+	margin: 4px 4px 12px 4px;
+}
+
+.formToggle:hover {
+	color: #438CF2;
+}
+
+.formToggle:active {
+	color: #346FBC;
+}
+
+.buttonModeDefault {
+	border-bottom: solid #438CF2 4px;
+}
+
+.buttonModeAlt1, .buttonModeAlt2 {
+	border-bottom: none;
+}
+
+.modeAlt1, .modeAlt2 {
+	display: none;
+}
+
+/*
+||==========================||
+||Character playstyle colors||
+||==========================||
+*/
+
+/* All-Rounder: Has tools to deal with a variety of situations */
+.styleBalanced {
+	color: #;
+}
+
+/* Big Body: Very large characters */
+.styleBigBody {
+	color: #;
+}
+
+/* Charge: Has many moves that require charge inputs */
+.styleCharge {
+	color: #;
+}
+
+/* Combo: Focused on longer, more extensive combos */
+.styleCombo {
+	color: #;
+}
+
+/* Drive-By: Stays away until a mistake is made, then rushes in to gain an advantage before returning to distance */
+.styleDriveBy {
+	color: #;
+}
+
+/* Glass Cannon: High risk (poor defense, low survivability/health), but high reward (high damage, large combos) */
+.styleGlassCannon {
+	color: #;
+}
+
+/* Grappler: Has plenty of command grabs, or gameplan revolves around a few */
+.styleGrappler {
+	color: #;
+}
+
+/* Install: Gameplan revolves around activating a specific install */
+.styleInstall {
+	color: #;
+}
+
+/* Mix-Up: Has tools to create high/low or left/right mixups and uses them frequently */
+.styleMixUp {
+	color: #;
+}
+
+/* Power: Deals a LOT of damage in less hits than others */
+.stylePower {
+	color: #;
+}
+
+/* Punish: Wants to wait for your opponent to make a mistake and take advantage of it, or largely utilizes parries or counters */
+.stylePunish {
+	color: #;
+}
+
+/* Puppet: Controls a separate character that has unique moves of its own */
+.stylePuppet {
+	color: #;
+}
+
+/* Rushdown: Character that prefers to get in your face rather than stay back */
+.styleRushdown {
+	color: #;
+}
+
+/* Setplay: Character that revolves around setups that they can perform once they have the advantage */
+.styleSetplay {
+	color: #;
+}
+
+/* Stance: Switches between 2 or more different stances, or has a single, temporary stance (less relevant) */
+.styleStance {
+	color: #;
+}
+
+/* Trap: Character that can set down traps that can catch the opponent or be comboed into */
+.styleTrap {
+	color: #;
+}
+
+/* Zoner: Wants to stay away and use projectiles or long-ranged disjoints to keep you away */
+.styleZoner {
+	color: #;
+}
+
+/*
+||====================||
+||Move property colors||
+||====================||
+*/
+
+.prop {
+	font-weight: bold;
+	border-bottom: dotted 2px;
+}
+
+/*
+	======================
+-=-=ATTACK TYPE PROPERTIES=-=-
+	======================
+*/
+
+/* Moves that send out projectiles */
+.propProjectile {
+	color: #;
+}
+
+/* Moves that are command grabs */
+.propCommandGrab {
+	color: #;
+}
+
+/* Moves that can be held down to charge them up */
+.propChargeable {
+	color: #;
+}
+
+/* Moves that automatically counterattack when they're hit by a move */
+.propParry {
+	color: #;
+}
+
+/*
+	================
+-=-=BLOCK PROPERTIES=-=-
+	================
+*/
+
+/* Low moves */
+.propLow {
+	color: #;
+}
+
+/* Overhead moves */
+.propOverhead {
+	color: #;
+}
+
+/* Air unblockable moves */
+.propAirUnblockable {
+	color: #;
+}
+
+/*
+	================================
+-=-=SITUATIONAL EXECUTION PROPERTIES=-=-
+	================================
+*/
+
+/* Moves that can be performed on the ground or in the air */
+.propAirOK {
+	color: #;
+}
+
+/* Moves that can only be performed in the air */
+.propAirOnly {
+	color: #;
+}
+
+/* Moves that cost some sort of resource */
+.propResourceCost {
+	color: #6AE2F7;
+}
+
+/* Moves that are follow-ups to other moves */
+.propFollowUp {
+	color: #6DFF99;
+}
+
+/* Moves that need to be above/below a certain amount of health to perform */
+.propHealthReq {
+	color: #;
+}
+
+/*
+	=====================
+-=-=RESISTANCE PROPERTIES=-=-
+	=====================
+*/
+
+/* Moves that are invulnerable at some point during the move, but not at the start */
+.propInvul {
+	color: #84C5FF;
+}
+
+/* Moves that are invulnerable at the start of the move */
+.propInvulStartup {
+	color: #84C5FF;
+}
+
+/* Moves that have super armor anywhere during the move */
+.propSuperArmor {
+	color: #FFA470;
+}
+
+/*
+	===============
+-=-=FORM PROPERTIES=-=-
+	===============
+*/
+
+/* Moves that activate a stance */
+.propStance {
+	color: #;
+}
+
+/* Moves that change between stances */
+.propStanceChange {
+	color: #;
+}
+
+/* Moves that are performed during an activated stance */
+.propStanceMove {
+	color: #;
+}
+
+/* Moves that end an activated stance */
+.propStanceEnd {
+	color: #;
+}
+
+/* Moves that activate an install */
+.propInstall {
+	color: #F97448;
+}
+
+/* Moves that are performed during an install */
+.propInstallMove {
+	color: #FF5E81;
+}
+
+/* Moves that end an install */
+.propInstallEnd {
+	color: #;
+}
+
+/*
+	==================
+-=-=SUPPORT PROPERTIES=-=-
+	==================
+*/
+
+/* Moves that activate a passive buff */
+.propBuff {
+	background: linear-gradient(to right, #E28C63, #E05C57);
+	background-clip: text;
+	color: transparent;
+	border-bottom-color: #E28C63;
+}
+
+/* Moves that can only be used during a buff */
+.propBuffMove {
+	background: linear-gradient(to right, #E28C63, #DDC099);
+	background-clip: text;
+	color: transparent;
+	border-bottom-color: #E28C63;
+}
+
+/* Moves that apply a passive debuff */
+.propDebuff {
+	background: linear-gradient(to right, #6E7ED3, #9B77D1);
+	background-clip: text;
+	color: transparent;
+	border-bottom-color: #6E7ED3;
+}
+
+/* Moves that restore health */
+.propRestore {
+	color: #;
+}
+
+/* Moves that deplete health */
+.propDrain {
+	color: #;
+}
+
+/* Moves that grant a resource */
+.propCharge {
+	color: #;
+}
+
+/*
+	================
+-=-=OTHER PROPERTIES=-=-
+	================
+*/
+
+/* Moves that guarantee a hard knockdown */
+.propHardKD {
+	color: #;
+}
+
+/* Moves that are performed by a puppet */
+.propPuppetMove {
+	color: #;
+}
+
+/**************/
+
+.infoBox {
+	display: none;
+	position: absolute;
+	z-index: 100;
+	max-width: 400px;
+	height: fit-content;
+	background-color: #373742;
+	text-align: left;
+	padding: 8px;
+	border: solid gray 1px;
+	border-radius: 6px;
+	box-shadow: #1A1A1E 5px 5px 5px;
+	margin-top: 3px;
+}
+
+.infoBox ul {
+	margin-top: 6px;
+}
+
+li:hover .infoBox {
+	display: block;
+}

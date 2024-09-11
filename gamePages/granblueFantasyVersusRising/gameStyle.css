@@ -1,0 +1,195 @@
+body {
+	background-image: url("../../img/granblueFantasyVersusRising/background.png");
+}
+
+.attackL, .attackM, .attackH, .attackU, .attackSkill, .attackBlock, .attackThrow, .attackDash, .attackSkyboundArt, .attackSuperSkyboundArt, .resourceSBA, .resourceBraveryPoint {
+	font-weight: bold;
+}
+
+.attackL {
+	color: #F163CB;
+}
+
+.attackM {
+	color: #39E6A9;
+}
+
+.attackH {
+	color: #E73F39;
+}
+
+.attackU {
+	color: #3F8BE4;
+}
+
+.attackSkill {
+	color: #FFE57B;
+}
+
+.attackBlock {
+	color: #FFAE79;
+}
+
+.attackThrow {
+	color: #83EBF7;
+}
+
+.attackDash {
+	color: #CCFF7A;
+}
+
+.attackUltimateSkill {
+	color: #6B98E5;
+}
+
+.attackSkyboundArt {
+	color: #C45C71;
+}
+
+.attackSuperSkyboundArt {
+	color: #43BCCC;
+}
+
+.resourceSBA {
+	color: #EF7F01;
+}
+
+.resourceBraveryPoint {
+	color: #5BE8EF;
+}
+
+.resource2BSKL {
+	color: #ABA48E;
+}
+
+.granSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Gran.png");
+}
+
+.djeetaSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Djeeta.png");
+}
+
+.katSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Katalina.png");
+}
+
+.charlotSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Charlotta.png");
+}
+
+.lanceSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Lancelot.png");
+}
+
+.perciSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Percival.png");
+}
+
+.ladivaSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Ladiva.png");
+}
+
+.meteraSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Metera.png");
+}
+
+.lowainSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Lowain.png");
+}
+
+.ferrySel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Ferry.png");
+}
+
+.zetaSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Zeta.png");
+}
+
+.vaseragaSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Vaseraga.png");
+}
+
+.narmayaSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Narmaya.png");
+}
+
+.sorizSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Soriz.png");
+}
+
+.zooeySel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Zooey.png");
+}
+
+.cagSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Cagliostro.png");
+}
+
+.yuelSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Yuel.png");
+}
+
+.anreSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Anre.png");
+}
+
+.eustaceSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Eustace.png");
+}
+
+.seoxSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Seox.png");
+}
+
+.viraSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Vira.png");
+}
+
+.anilaSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Anila.png");
+}
+
+.siegSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Siegfried.png");
+}
+
+.grimnirSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Grimnir.png");
+}
+
+.nierSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Nier.png");
+}
+
+.bubsSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Beelzebub.png");
+}
+
+.belialSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Belial.png");
+}
+
+.aBelialSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/AvatarBelial.png");
+}
+
+.luciSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Lucilius.png");
+}
+
+.twoBSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/2B.png");
+}
+
+.vaneSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Vane.png");
+}
+
+.beaSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/beatrix.png");
+}
+
+.versusSel {
+	background-image: url("../../img/granblueFantasyVersusRising/portraits/chrSelect/Versusia.png");
+}

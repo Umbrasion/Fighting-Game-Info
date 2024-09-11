@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Amber's Fighting Game Info</title>
+		<link rel="stylesheet" href="styles/main.css">
+		<script src="scripts/main.js"></script>
+		<style>
+			.infoGrid {
+				display: grid;
+				gap: 16px;
+				grid-template-columns: calc(30% - 16px) 40% calc(30% - 16px);
+			}
+			.updates {
+				font-weight: bold;
+				margin-top: 14px;
+			}
+			.miniNotice {
+				font-weight: normal;
+				font-size: 14px;
+				color: #939396;
+				margin: 4px 0px;
+			}
+			.updates div {
+				font-weight: normal;
+				margin-top: 10px;
+				margin-left: 18px;
+				margin-bottom: 10px;
+			}
+			.creditsName {
+				font-size: 22px;
+				font-weight: bold;
+				text-decoration: underline;
+				color: #EDEDF4;
+			}
+			.innerBox {
+				display: block;
+				background-color: #444451;
+				border-radius: 6px;
+				padding: 10px;
+				box-shadow: #1A1A1E 5px 5px 5px;
+				margin: 10px 5px;
+			}
+			h5 {
+				margin: 0px 0px 12px 6px;
+				font-size: 22px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="contentContainer">
+			<header>
+				<div class="pageLinks">
+					<a class="navButton" href="index.html"><div>HOME</div></a>
+					<a class="navButton" href="howToStart.html"><div>HOW TO START</div></a>
+					<a class="navButton" href="gameList.html"><div>GAME LIST</div></a>
+					<a class="navButton" href="tournaments.html"><div>TOURNAMENTS</div></a>
+				</div>
+				<div class="titlebar">
+					<div style="font-size: 26px; padding-top: 20px; font-weight: bold">Welcome to</div>
+					<h1>AMBER'S FIGHTING GAME INFO</h1>
+				</div>
+			</header>
+			<div class="contentContainer" style="width: 100%; border: none">
+				<main>
+					<div class="contentSegment" style="text-align: center">
+						<p class="boxTop boxBottom">Welcome to Amber's Fighting Game Info, a place for information about all kinds of fighting games. Head to the <a href="gameList.html">GAME LIST</a> to see all games available.</p>
+					</div>
+					<!---->
+					<div class="infoGrid">
+						<div class="contentSegment">
+							<h4>Site Updates</h4>
+							<p class="miniNotice">Updates can also be viewed via the <a>GitHub Repo</a>.</p>
+							<div class="updates">
+								XX/XX/XXXX
+								<div>Site development version published.</div>
+							</div>
+						</div>
+						<div class="contentSegment" style="text-align: center">
+							<h4>FAQ</h4>
+							<div style="text-align: left">
+								<div class="innerBox">
+									<h5>What is this site for?</h5>
+									<div>This site was made as a way to have easily accessible information on the games included in Ready or Not, GAMBLE!</div>
+								</div>
+								<div class="innerBox">
+									<h5>Why not just use Dustloop/Mizuumi/etc.?</h5>
+									<div>I wanted to make something that was a bit more friendly to people who don't know anything about fighting games or are mainly just trying to play to have fun. Also I'm extremely autistic</div>
+								</div>
+							</div>
+						</div>
+						<div class="contentSegment">
+							<h4>Other Fighting Game Resources</h4>
+							<div>
+								<a class="innerBox" href="https://dragdown.wiki/wiki/Main_Page"><b>THE FIGHTING GAME CLOSSARY</b> - Definitions of fighting game terminology</a>
+								<a class="innerBox" href="https://2xko.wiki/w/Main_Page"><b>2XKO WIKI</b> - Self-explanatory</a>
+								<a class="innerBox" href="https://www.dreamcancel.com/wiki/Main_Page"><b>DREAM CANCEL</b> - SNK games</a>
+								<a class="innerBox" href="https://dragdown.wiki/wiki/Main_Page"><b>DRAGDOWN</b> - Super Smash Bros. Ultimate</a>
+								<a class="innerBox" href="https://www.dustloop.com/w/Main_Page"><b>DUSTLOOP</b> - Arc System Works games</a>
+								<a class="innerBox" href="https://www.freestepdodge.com/wiki/"><b>FREE STEP DODGE</b> - Dead or Alive games</a>
+								<a class="innerBox" href="https://wiki.gbl.gg/"><b>MIZUUMI</b> - Niche versus/fighting games</a>
+								<a class="innerBox" href="https://wiki.supercombo.gg/"><b>SUPERCOMBO</b> - Capcom games &amp; more</a>
+								<a class="innerBox" href="https://wiki.supercombo.gg/"><b>VFDC</b> - Virtua Fighter games</a>
+								<a class="innerBox" href="https://wavu.wiki/t/Main_Page"><b>WAVU</b> - Modern Tekken games</a>
+							</div>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+	</body>
+</html>

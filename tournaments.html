@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tournaments | Amber's Fighting Game Info</title>
+		<link rel="stylesheet" href="styles/main.css">
+		<script src="scripts/main.js"></script>
+		<style>
+			.showcaseGrid {
+				text-align: center;
+				padding: 20px;
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: row;
+				gap: 20px;
+				margin: auto;
+			}
+			.tournamentBlock {
+				width: 200px;
+				padding: 4px;
+				border: 1px solid gray;
+				border-radius: 3px;
+			}
+			.imageContainer {
+				aspect-ratio: 1 / 1;
+				border-bottom: 1px solid gray;
+			}
+			.imageContainer img {
+				max-width: 100%;
+				max-height: 100%;
+				margin: 0;
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			figcaption {
+				padding: 3px;
+				font-size: 13px;
+			}
+			.construction {
+				color: #D40000
+			}
+			h1 {
+				border-bottom: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="contentContainer">
+			<header>
+				<div class="pageLinks">
+					<a class="navButton" href="index.html"><div>HOME</div></a>
+					<a class="navButton" href="howToStart.html"><div>HOW TO START</div></a>
+					<a class="navButton" href="gameList.html"><div>GAME LIST</div></a>
+					<a class="navButton" href="tournaments.html"><div>TOURNAMENTS</div></a>
+				</div>
+				<div class="titlebar">
+					<h1>TOURNAMENTS</h1>
+				</div>
+			</header>
+			<div class="contentContainer" style="width: 100%; border: none">
+				<main>
+					<h1>Upcoming Tournaments</h1>
+					<div class="showcaseGrid">
+						None
+					</div>
+					<h1>Past Tournaments</h1>
+					<div class="showcaseGrid">
+						<div class="tournamentBlock">
+							<a href="tournamentPages/rng1.html">
+								<div class="imageContainer"><img src="img/tourney/logos/rng1.png"></div>
+							</a>
+							<a href="tournamentPages/rng1.html">
+								<figcaption>Ready or Not, GAMBLE!</figcaption>
+							</a>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+	</body>
+</html>

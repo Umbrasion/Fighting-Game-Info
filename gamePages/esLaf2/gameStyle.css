@@ -1,0 +1,49 @@
+body {
+	background-image: url("../../img/esLaf2/background.png");
+}
+
+.attack {
+	
+}
+
+/* Character select sizing */
+
+.mainSel {
+	background-image: url("../../img/esLaf2/portraits/chrSelect/Main.png");
+}
+
+.siscaSel {
+	background-image: url("../../img/esLaf2/portraits/chrSelect/Sisca.png");
+}
+
+.qdoraSel {
+	background-image: url("../../img/esLaf2/portraits/chrSelect/Qdora.png");
+}
+
+.taeSel {
+	background-image: url("../../img/esLaf2/portraits/chrSelect/AkamineTae.png");
+}
+
+.tinaSel {
+	background-image: url("../../img/esLaf2/portraits/chrSelect/Tina.png");
+}
+
+.cecilSel {
+	background-image: url("../../img/esLaf2/portraits/chrSelect/Cecil.png");
+}
+
+.sTinaSel {
+	background-image: url("../../img/esLaf2/portraits/chrSelect/SavingTina.png");
+}
+
+.alcottSel {
+	background-image: url("../../img/esLaf2/portraits/chrSelect/Alcott.png");
+}
+
+.serenaSel {
+	background-image: url("../../img/esLaf2/portraits/chrSelect/Serena.png");
+}
+
+.yagabiSel {
+	background-image: url("../../img/esLaf2/portraits/chrSelect/Yagabi.png");
+}

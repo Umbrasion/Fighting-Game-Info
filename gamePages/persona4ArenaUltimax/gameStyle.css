@@ -1,0 +1,97 @@
+body {
+	background-image: url("../../img/persona4ArenaUltimax/background.jpg");
+}
+
+.attack {
+	
+}
+
+/* Character select */
+
+.yuSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/YuNarukami.png");
+}
+
+.yosukeSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/YosukeHanamura.png");
+}
+
+.chieSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/ChieSatonaka.png");
+}
+
+.yukikoSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/YukikoAmagi.png");
+}
+
+.kanjiSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/KanjiTatsumi.png");
+}
+
+.teddieSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/Teddie.png");
+}
+
+.naotoSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/NaotoShirogane.png");
+}
+
+.akihikoSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/AkihikoSanada.png");
+}
+
+.mitsuruSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/MitsuruKirijo.png");
+}
+
+.aigisSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/Aigis.png");
+}
+
+.labrysSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/Labrys.png");
+}
+
+.elizaSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/Elizabeth.png");
+}
+
+.sLabrysSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/ShadowLabrys.png");
+}
+
+.yukariSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/YukariTakeba.png");
+}
+
+.junpeiSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/JunpeiIori.png");
+}
+
+.shoSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/Sho.png");
+}
+
+.minazukiSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/Minazuki.png");
+}
+
+.riseSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/RiseKujikawa.png");
+}
+
+.kenSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/KenAmada.png");
+}
+
+.adachiSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/TohruAdachi.png");
+}
+
+.marieSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/Marie.png");
+}
+
+.margaretSel {
+	background-image: url("../../img/persona4ArenaUltimax/portraits/chrSelect/Margaret.png");
+}

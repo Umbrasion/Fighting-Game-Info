@@ -1,0 +1,377 @@
+body {
+	background-image: url("../../img/superSmashBrosUltimate/background.png");
+}
+
+.attackA, .attackB, .attackGrab, .attackFinalSmash {
+	font-weight: bold;
+}
+
+.attackA {
+	color: #3FDBB7;
+}
+
+.attackB {
+	color: #FF6363;
+}
+
+.attackGrab {
+	color: #9357FF;
+}
+
+.attackFinalSmash {
+	color: #;
+}
+
+.resource {
+	color: #;
+}
+
+.state {
+	color: #;
+}
+
+/* Character select */
+
+.marioSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Mario.png");
+}
+
+.dkSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/DonkeyKong.png");
+}
+
+.linkSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Link.png");
+}
+
+.samusSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Samus.png");
+}
+
+.dSamusSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/DarkSamus.png");
+}
+
+.yoshiSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Yoshi.png");
+}
+
+.kirbySel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Kirby.png");
+}
+
+.foxSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Fox.png");
+}
+
+.pikachuSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Pikachu.png");
+}
+
+.luigiSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Luigi.png");
+}
+
+.nessSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Ness.png");
+}
+
+.captainSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/CaptainFalcon.png");
+}
+
+.puffSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Jigglypuff.png");
+}
+
+.peachSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Peach.png");
+}
+
+.daisySel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Daisy.png");
+}
+
+.bowserSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Bowser.png");
+}
+
+.iciesSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/IceClimbers.png");
+}
+
+.sheikSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Sheik.png");
+}
+
+.zeldaSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Zelda.png");
+}
+
+.drMarioSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/DrMario.png");
+}
+
+.pichuSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Pichu.png");
+}
+
+.falcoSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Falco.png");
+}
+
+.marthSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Marth.png");
+}
+
+.lucinaSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Lucina.png");
+}
+
+.yLinkSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/YoungLink.png");
+}
+
+.ganonSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Ganondorf.png");
+}
+
+.mewtwoSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Mewtwo.png");
+}
+
+.roySel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Roy.png");
+}
+
+.chromSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Chrom.png");
+}
+
+.gnwSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/MrGameAndWatch.png");
+}
+
+.mkSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/MetaKnight.png");
+}
+
+.pitSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Pit.png");
+}
+
+.dPitSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/DarkPit.png");
+}
+
+.zssSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/ZeroSuitSamus.png");
+}
+
+.warioSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Wario.png");
+}
+
+.snakeSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Snake.png");
+}
+
+.ikeSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Ike.png");
+}
+
+.pkmnSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/PokémonTrainer.png");
+}
+
+.diddySel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/DiddyKong.png");
+}
+
+.lucasSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Lucas.png");
+}
+
+.sonicSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Sonic.png");
+}
+
+.dededeSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/KingDedede.png");
+}
+
+.olimarSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Olimar.png");
+}
+
+.lucarioSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Lucario.png");
+}
+
+.robSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/ROB.png");
+}
+
+.tLinkSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/ToonLink.png");
+}
+
+.wolfSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Wolf.png");
+}
+
+.villaSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Villager.png");
+}
+
+.megaSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/MegaMan.png");
+}
+
+.wiiFitSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/WiiFitTrainer.png");
+}
+
+.rosaSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/RosalinaAndLuma.png");
+}
+
+.macSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/LittleMac.png");
+}
+
+.greninjaSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Greninja.png");
+}
+
+.paluSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Palutena.png");
+}
+
+.pacManSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/PacMan.png");
+}
+
+.robinSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Robin.png");
+}
+
+.shulkSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Shulk.png");
+}
+
+.bowserJrSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/BowserJr.png");
+}
+
+.huntSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/DuckHunt.png");
+}
+
+.ryuSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Ryu.png");
+}
+
+.kenSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Ken.png");
+}
+
+.cloudSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Cloud.png");
+}
+
+.corrinSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Corrin.png");
+}
+
+.bayoSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Bayonetta.png");
+}
+
+.inklingSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Inkling.png");
+}
+
+.ridleySel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Ridley.png");
+}
+
+.simonSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Simon.png");
+}
+
+.richterSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Richter.png");
+}
+
+.kRoolSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/KingKRool.png");
+}
+
+.belleSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Isabelle.png");
+}
+
+.incinSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Incineroar.png");
+}
+
+.plantSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/PiranhaPlant.png");
+}
+
+.jokerSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Joker.png");
+}
+
+.heroSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Hero.png");
+}
+
+.banjoSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/BanjoAndKazooie.png");
+}
+
+.terrySel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Terry.png");
+}
+
+.bylethSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Byleth.png");
+}
+
+.minMinSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/MinMin.png");
+}
+
+.steveSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Steve.png");
+}
+
+.sephirSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Sephiroth.png");
+}
+
+.aegisSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/PyraMythra.png");
+}
+
+.kazuyaSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Kazuya.png");
+}
+
+.soraSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/Sora.png");
+}
+
+.brawlerSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/MiiBrawler.png");
+}
+
+.swordfightSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/MiiSwordfighter.png");
+}
+
+.gunnerSel {
+	background-image: url("../../img/superSmashBrosUltimate/portraits/chrSelect/MiiGunner.png");
+}

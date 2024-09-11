@@ -1,0 +1,81 @@
+body {
+	background-image: url("../../img/skullgirls/background.png");
+}
+
+.attack {
+	
+}
+
+/* Character select */
+
+.filiaSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Filia.png");
+}
+
+.bellaSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Cerebella.png");
+}
+
+.peacockSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Peacock.png");
+}
+
+.parasoulSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Parasoul.png");
+}
+
+.fortuneSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/MsFortune.png");
+}
+
+.painSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Painwheel.png");
+}
+
+.valentineSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Valentine.png");
+}
+
+.doubleSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Double.png");
+}
+
+.squiglySel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Squigly.png");
+}
+
+.bandSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/BigBand.png");
+}
+
+.elizaSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Eliza.png");
+}
+
+.fukuaSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Fukua.png");
+}
+
+.beowulfSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Beowulf.png");
+}
+
+.rFortuneSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/RoboFortune.png");
+}
+
+.annieSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Annie.png");
+}
+
+.umbrellaSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Umbrella.png");
+}
+
+.dahliaSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/BlackDahlia.png");
+}
+
+.marieSel {
+	background-image: url("../../img/skullgirls/portraits/chrSelect/Marie.png");
+}

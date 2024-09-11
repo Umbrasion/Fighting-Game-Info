@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tournament Spinner</title>
+		<link rel="stylesheet" href="../styles/main.css">
+		<script src="../scripts/roller.js"></script>
+		<style>
+			@font-face {
+				font-family: "Doodlian";
+				src: Doodlian-Regular.ttf;
+			}
+			body {
+				font-family: "Doodlian";
+			}
+			.spinnerArea {
+				background-image: url("../img/tourney/platform_fighter_infobar.png");
+				background-repeat: no-repeat;
+				width: 518px;
+				height: 57px;
+				color: white;
+				font-size: 34px;
+				text-align: center;
+				padding-top: 8px;
+				margin: auto;
+			}
+			.spinButton {
+				font-family: "Doodlian";
+				font-size: 50px;
+				margin: auto;
+				display: block;
+			}
+			#spinResults {
+				display: none;
+				position: absolute;
+				background-color: rgba(50, 50, 50, 0.7);
+				top: 0px;
+				bottom: 0px;
+				left: 0px;
+				right: 0px;
+				overflow: hidden;
+				z-index: 100;
+			}
+			.resultInfoBox {
+				width: 600px;
+				height: fit-content;
+				margin: 150px auto;
+				background-color: #3A5E33;
+				border: 5px solid black;
+				border-radius: 5px;
+				padding: 8px;
+				color: white;
+			}
+			.rolled {
+				font-size: 26px;
+				text-align: center;
+				margin-top: 0px;
+				border-bottom: 3px solid black;
+			}
+			h1 {
+				font-size: 40px;
+				text-align: center;
+				border-bottom: none;
+			}
+			#button2 {
+				display: none;
+			}
+			#conditionDesc {
+				display: none;
+				margin-top: 0px;
+				font-size: 28px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="contentContainer">
+			<header>
+				<div class="pageLinks">
+					<a class="navButton" href="../index.html"><div>HOME</div></a>
+					<a class="navButton" href="../howToStart.html"><div>HOW TO START</div></a>
+					<a class="navButton" href="../gameList.html"><div>GAME LIST</div></a>
+					<a class="navButton" href="../tournaments.html"><div>TOURNAMENTS</div></a>
+				</div>
+				<div class="titlebar">
+					<h1>READY OR NOT, GAMBLE! SPINNER</h1>
+				</div>
+			</header>
+			<div class="contentContainer" style="width: 100%; border: none; background-color: #3A5E33">
+				<main>
+					<div class="logoContainer" style="width: 350px; margin: auto">
+						<img src="../img/tourney/logos/rng1.png" style="width: 350px">
+					</div>
+					<div class="spinnerArea" id="spinner1">READY OR NOT,</div>
+					<div class="spinnerArea" id="spinner2">GAMBLE!!!!!</div>
+					<div style="width: fit-content; margin: auto">
+						<button id="button1" class="spinButton" onclick="spinToWin(1)">SPIN!</button>
+						<button id="button2" class="spinButton" onclick="spinToWin(2)">SPIN!</button>
+					</div>
+					<div id="spinResults">
+						<div class="resultInfoBox">
+							<p class="rolled">You rolled:</p>
+							<h1 id="rollInfo">GAME!!</h1>
+							<p id="conditionDesc"></p>
+							<button class="spinButton" onclick="display(true)">Close</button>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+	</body>
+</html>

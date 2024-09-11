@@ -1,0 +1,33 @@
+body {
+	background-image: url("../../img/fraymakers/background.png");
+}
+
+.attack {
+	
+}
+
+/* Character select sizing */
+
+.octodadSel {
+	background-image: url("../../img/fraymakers/portraits/chrSelect/Octodad.png");
+}
+
+.videoSel {
+	background-image: url("../../img/fraymakers/portraits/chrSelect/CommanderVideo.png");
+}
+
+.welltaroSel {
+	background-image: url("../../img/fraymakers/portraits/chrSelect/Welltaro.png");
+}
+
+.watcherSel {
+	background-image: url("../../img/fraymakers/portraits/chrSelect/TheWatcher.png");
+}
+
+.orcaneSel {
+	background-image: url("../../img/fraymakers/portraits/chrSelect/Orcane.png");
+}
+
+.fishSel {
+	background-image: url("../../img/fraymakers/portraits/chrSelect/UltraFishbunjin3000.png");
+}

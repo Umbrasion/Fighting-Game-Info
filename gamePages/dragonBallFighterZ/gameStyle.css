@@ -1,0 +1,185 @@
+body {
+	background-image: url("../../img/dragonBallFighterZ/background.png");
+}
+
+.attack {
+	
+}
+
+/* Character select sizing */
+
+.gokuSSSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/GokuSS.png");
+}
+
+.vegetaSSSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/VegetaSS.png");
+}
+
+.piccoloSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Piccolo.png");
+}
+
+.tGohanSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/GohanTeen.png");
+}
+
+.friezaSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Frieza.png");
+}
+
+.ginyuSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/CaptainGinyu.png");
+}
+
+.trunksSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Trunks.png");
+}
+
+.cellSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Cell.png");
+}
+
+.eighteenSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Android18.png");
+}
+
+.gotenksSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Gotenks.png");
+}
+
+.krillinSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Krillin.png");
+}
+
+.kBuuSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/KidBuu.png");
+}
+
+.mBuuSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/MajinBuu.png");
+}
+
+.nappaSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Nappa.png");
+}
+
+.sixteenSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Android16.png");
+}
+
+.yamchaSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Yamcha.png");
+}
+
+.tienSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Tien.png");
+}
+
+.aGohanSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/GohanAdult.png");
+}
+
+.hitSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Hit.png");
+}
+
+.gokuSSGSSSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/GokuSSGSS.png");
+}
+
+.vegetaSSGSSSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/VegetaSSGSS.png");
+}
+
+.beerusSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Beerus.png");
+}
+
+.bGokuSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/GokuBlack.png");
+}
+
+.twentyOneSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Android21.png");
+}
+
+.gokuSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Goku.png");
+}
+
+.vegetaSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Vegeta.png");
+}
+
+.brolySel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Broly.png");
+}
+
+.zamasuSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/ZamasuFused.png");
+}
+
+.bardockSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Bardock.png");
+}
+
+.vegitoSSGSSSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/VegitoSSGSS.png");
+}
+
+.seventeenSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Android17.png");
+}
+
+.coolerSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Cooler.png");
+}
+
+.jirenSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Jiren.png");
+}
+
+.videlSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Videl.png");
+}
+
+.gokuGTSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/GokuGT.png");
+}
+
+.janembaSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Janemba.png");
+}
+
+.gogetaSSGSSSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/GogetaSSGSS.png");
+}
+
+.brolyDBSSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/BrolyDBS.png");
+}
+
+.keflaSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Kefla.png");
+}
+
+.gokuUISel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/GokuUI.png");
+}
+
+.roshiSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/MasterRoshi.png");
+}
+
+.babySel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/SuperBaby2.png");
+}
+
+.gogetaSS4Sel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/GogetaSS4.png");
+}
+
+.twentyOneLabSel {
+	background-image: url("../../img/dragonBallFighterZ/portraits/chrSelect/Android21LabCoat.png");
+}

@@ -1,0 +1,109 @@
+body {
+	background-image: url("../../img/guiltyGearXrd/background.png");
+}
+
+.attack {
+	
+}
+
+/* Character select sizing */
+
+.solSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/SolBadguy.png");
+}
+
+.kySel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/KyKiske.png");
+}
+
+.maySel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/May.png");
+}
+
+.milliaSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/MilliaRage.png");
+}
+
+.zatoSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/Zato1.png");
+}
+
+.potSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/Potemkin.png");
+}
+
+.chippSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/ChippZanuff.png");
+}
+
+.faustSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/Faust.png");
+}
+
+.axlSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/AxlLow.png");
+}
+
+.venomSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/Venom.png");
+}
+
+.slayerSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/Slayer.png");
+}
+
+.iNoSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/INo.png");
+}
+
+.bedmanSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/Bedman.png");
+}
+
+.ramSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/RamlethalValentine.png");
+}
+
+.sinSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/SinKiske.png");
+}
+
+.elpheltSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/ElpheltValentine.png");
+}
+
+.leoSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/LeoWhitefang.png");
+}
+
+.johnnySel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/Johnny.png");
+}
+
+.jackOSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/JackOValentine.png");
+}
+
+.jamSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/JamKuradoberi.png");
+}
+
+.kumSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/KumHaehyun.png");
+}
+
+.ravenSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/Raven.png");
+}
+
+.dizzySel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/Dizzy.png");
+}
+
+.baikenSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/Baiken.png");
+}
+
+.answerSel {
+	background-image: url("../../img/guiltyGearXrd/portraits/chrSelect/Answer.png");
+}

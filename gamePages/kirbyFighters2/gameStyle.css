@@ -1,0 +1,108 @@
+body {
+	background-image: url("../../img/kirbyFighters2/background.jpg");
+}
+
+.attack {
+	
+}
+
+/* Character select */
+
+.chrPreview {
+	height: 80px;
+	background-size: 80px;
+	border: none;
+	background-color: transparent;
+}
+
+.chrPreview:hover {
+	background-color: transparent;
+}
+
+.swordSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Sword.png");
+}
+
+.bombSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Bomb.png");
+}
+
+.staffSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Staff.png");
+}
+
+.artistSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Artist.png");
+}
+
+.fighterSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Fighter.png");
+}
+
+.yoyoSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Yoyo.png");
+}
+
+.beetleSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Beetle.png");
+}
+
+.bellSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Bell.png");
+}
+
+.archerSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Archer.png");
+}
+
+.parasolSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Parasol.png");
+}
+
+.cutterSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Cutter.png");
+}
+
+.hammerSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Hammer.png");
+}
+
+.beamSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Beam.png");
+}
+
+.wrestlerSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Wrestler.png");
+}
+
+.ninjaSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Ninja.png");
+}
+
+.whipSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Whip.png");
+}
+
+.waterSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Water.png");
+}
+
+.deeSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/BandanaWaddleDee.png");
+}
+
+.gooeySel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Gooey.png");
+}
+
+.magolorSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/Magolor.png");
+}
+
+.dededeSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/KingDedede.png");
+}
+
+.metaSel {
+	background-image: url("../../img/kirbyFighters2/portraits/chrSelect/MetaKnight.png");
+}
