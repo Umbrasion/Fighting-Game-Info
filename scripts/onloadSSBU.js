@@ -102,7 +102,7 @@ characterList.innerHTML = `
 	<div class="chrPreview chrPreviewSmall yLinkSel"><div><span>Young Link</span></div></div>
 </a>
 <!-- Ganondorf -->
-<a href="ganon.html" style="text-decoration: none">
+<a href="ganondorf.html" style="text-decoration: none">
 	<div class="chrPreview chrPreviewSmall ganonSel"><div><span>Ganondorf</span></div></div>
 </a>
 <!-- Mewtwo -->
