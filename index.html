@@ -3,7 +3,8 @@
 	<head>
 		<title>Amber's Fighting Game Info</title>
 		<link rel="stylesheet" href="styles/main.css">
-		<script src="scripts/main.js"></script>
+		<script src="scripts/main.js" defer></script>
+		<script src="scripts/jquery-3.7.1.min.js"></script>
 		<style>
 			.infoGrid {
 				display: grid;
@@ -32,17 +33,34 @@
 				text-decoration: underline;
 				color: #EDEDF4;
 			}
-			.innerBox {
-				display: block;
-				background-color: #444451;
-				border-radius: 6px;
-				padding: 10px;
-				box-shadow: #1A1A1E 5px 5px 5px;
-				margin: 10px 5px;
-			}
 			h5 {
 				margin: 0px 0px 12px 6px;
 				font-size: 22px;
+			}
+			.indexlist-container {
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				gap: 10px;
+				margin: 8px 0px 16px;
+			}
+			.indexlist-item {
+				background-color: #444451;
+				width: 170px;
+				height: 80px;
+				border-radius: 6px;
+				padding: 10px;
+				box-shadow: #1A1A1E 5px 5px 5px;
+			}
+			.indexlist-item:hover {
+				transform: scale(1.1);
+			}
+			.indexlist-item img {
+				position: relative;
+				top: 50%;
+				max-width: 100%;
+				max-height: 100%;
+				transform: translateY(-50%);
 			}
 		</style>
 	</head>
@@ -63,10 +81,71 @@
 			<div class="contentContainer" style="width: 100%; border: none">
 				<main>
 					<div class="contentSegment" style="text-align: center">
-						<p class="boxTop boxBottom">Welcome to Amber's Fighting Game Info, a place for information about all kinds of fighting games. Head to the <a href="gameList.html">GAME LIST</a> to see all games available.</p>
+						<h4>Featured Game List</h4>
+						<div class="indexlist-container">
+							<a href="gamePages/BlazBlue_Central_Fiction/BBCF.html">
+								<div class="indexlist-item">
+									<img src="img/logos/small/BBCF_logo_small.webp">
+								</div>
+							</a>
+							<a href="gamePages/Dragon_Ball_FighterZ/DBFZ.html">
+								<div class="indexlist-item">
+									<img src="img/logos/small/DBFZ_logo_small.webp">
+								</div>
+							</a>
+							<a href="gamePages/Granblue_Fantasy_Versus_Rising/GBVSR.html">
+								<div class="indexlist-item">
+									<img src="img/logos/small/GBVSR_logo_small.webp">
+								</div>
+							</a>
+							<a href="gamePages/Guilty_Gear_-Strive-/GGST.html">
+								<div class="indexlist-item">
+									<img src="img/logos/small/GGST_logo_small.webp">
+								</div>
+							</a>
+							<a href="gamePages/Melty_Blood_Type_Lumina/MBTL.html">
+								<div class="indexlist-item">
+									<img src="img/logos/small/MBTL_logo_small.webp">
+								</div>
+							</a>
+							<a href="gamePages/Street_Fighter_6/SF6.html">
+								<div class="indexlist-item">
+									<img src="img/logos/small/SF6_logo_small.webp">
+								</div>
+							</a>
+							<a href="gamePages/Super_Smash_Bros._Ultimate/SSBU.html">
+								<div class="indexlist-item">
+									<img src="img/logos/small/SSBU_logo_small.webp">
+								</div>
+							</a>
+							<a href="gamePages/Tekken_8/T8.html">
+								<div class="indexlist-item">
+									<img src="img/logos/small/T8_logo_small.webp">
+								</div>
+							</a>
+							<a href="gamePages/Under_Night_In-Birth_II_SysCeles/UNI2.html">
+								<div class="indexlist-item">
+									<img src="img/logos/small/UNI2_logo_small.webp">
+								</div>
+							</a>
+						</div>
+						<a href="gameList.html">See all...</a>
 					</div>
 					<!---->
 					<div class="infoGrid">
+						<div class="contentSegment" style="text-align: center">
+							<h4>FAQ</h4>
+							<div style="text-align: left">
+								<div class="innerBox">
+									<h5>What is this site for?</h5>
+									<div>Originally a basic informational place on fighting games made for a tournament series hosted by me and my friend, it's since expanded to something quite large in scope and is now more of a general fighting game resource with the aim to be as welcoming to beginners as possible while also being deep for more experience players.</div>
+								</div>
+								<div class="innerBox">
+									<h5>How long will this take to make?</h5>
+									<div>Dunno! It's mainly based on my own motivation and sway of life. I'm always open to others contributing, though it's certainly more difficult than a public wiki. It's probably something I'll chip away at in my own offtime.</div>
+								</div>
+							</div>
+						</div>
 						<div class="contentSegment">
 							<h4>Site Updates</h4>
 							<p class="miniNotice">Updates can also be viewed via the <a href="https://github.com/Umbrasion/Fighting-Game-Info" target="_blank">GitHub Repo</a>.</p>
@@ -75,31 +154,18 @@
 								<div>Site preview version published. Minor fixes.</div>
 							</div>
 						</div>
-						<div class="contentSegment" style="text-align: center">
-							<h4>FAQ</h4>
-							<div style="text-align: left">
-								<div class="innerBox">
-									<h5>What is this site for?</h5>
-									<div>This site was made as a way to have easily accessible information on the games included in Ready or Not, GAMBLE!</div>
-								</div>
-								<div class="innerBox">
-									<h5>Why not just use Dustloop/Mizuumi/etc.?</h5>
-									<div>I wanted to make something that was a bit more friendly to people who don't know anything about fighting games or are mainly just trying to play to have fun. Also I'm extremely autistic</div>
-								</div>
-							</div>
-						</div>
 						<div class="contentSegment">
 							<h4>Other Fighting Game Resources</h4>
 							<div>
-								<a class="innerBox" href="https://dragdown.wiki/wiki/Main_Page"><b>THE FIGHTING GAME CLOSSARY</b> - Definitions of fighting game terminology</a>
-								<a class="innerBox" href="https://2xko.wiki/w/Main_Page"><b>2XKO WIKI</b> - Self-explanatory</a>
+								<a class="innerBox" href="https://glossary.infil.net/"><b>THE FIGHTING GAME GLOSSARY</b> - Definitions of fighting game terminology</a>
+								<a class="innerBox" href="https://2xko.wiki/w/Main_Page"><b>2XKO WIKI</b> - 2XKO</a>
 								<a class="innerBox" href="https://www.dreamcancel.com/wiki/Main_Page"><b>DREAM CANCEL</b> - SNK games</a>
 								<a class="innerBox" href="https://dragdown.wiki/wiki/Main_Page"><b>DRAGDOWN</b> - Super Smash Bros. Ultimate</a>
 								<a class="innerBox" href="https://www.dustloop.com/w/Main_Page"><b>DUSTLOOP</b> - Arc System Works games</a>
 								<a class="innerBox" href="https://www.freestepdodge.com/wiki/"><b>FREE STEP DODGE</b> - Dead or Alive games</a>
 								<a class="innerBox" href="https://wiki.gbl.gg/"><b>MIZUUMI</b> - Niche versus/fighting games</a>
 								<a class="innerBox" href="https://wiki.supercombo.gg/"><b>SUPERCOMBO</b> - Capcom games &amp; more</a>
-								<a class="innerBox" href="https://wiki.supercombo.gg/"><b>VFDC</b> - Virtua Fighter games</a>
+								<a class="innerBox" href="https://virtuafighter.com/wiki/index/"><b>VFDC</b> - Virtua Fighter games</a>
 								<a class="innerBox" href="https://wavu.wiki/t/Main_Page"><b>WAVU</b> - Modern Tekken games</a>
 							</div>
 						</div>

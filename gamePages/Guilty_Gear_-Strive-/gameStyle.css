@@ -1,0 +1,31 @@
+body {
+	background-image: url("../../img/guiltyGearStrive/background.png");
+}
+
+.attack {
+	
+}
+
+/* Character select */
+
+.chrSelection {
+	display: block;
+	width: calc(100% - 40px);
+	margin: 0px;
+}
+
+.selectbox-row {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	max-width: 100%;
+}
+
+.selectbox-row a:hover {
+	transform: scale(1.14);
+}
+
+.selectbox-character img, .selectbox-spacer {
+	display: block;
+	max-width: 82px;
+}

@@ -1,312 +1,398 @@
 var characterList = document.getElementsByClassName("chrSelection")[0];
 
 characterList.innerHTML = `
-<!-- Mario -->
-<a href="mario.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall marioSel"><div><span>Mario</span></div></div>
-</a>
-<!-- Luigi -->
-<a href="luigi.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall luigiSel"><div><span>Luigi</span></div></div>
-</a>
-<!-- Peach -->
-<a href="peach.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall peachSel"><div><span>Peach</span></div></div>
-</a>
-<!-- Toad -->
-<a href="toad.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall toadSel"><div><span>Toad</span></div></div>
-</a>
-<!-- Dr. Mario -->
-<a href="drMario.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall drMarioSel"><div><span>Dr. Mario</span></div></div>
-</a>
-<!-- Bowser -->
-<a href="bowser.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall bowserSel"><div><span>Bowser</span></div></div>
-</a>
-<!-- Goomba -->
-<a href="goomba.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall goombaSel"><div><span>Goomba</span></div></div>
-</a>
-<!-- Petey Piranha -->
-<a href="peteyPiranha.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall peteySel"><div><span>Petey Piranha</span></div></div>
-</a>
-<!-- Yoshi -->
-<a href="yoshi.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall yoshiSel"><div><span>Yoshi</span></div></div>
-</a>
-<!-- Donkey Kong -->
-<a href="donkeyKong.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall dkSel"><div><span>Donkey Kong</span></div></div>
-</a>
-<!-- Wario -->
-<a href="wario.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall warioSel"><div><span>Wario</span></div></div>
-</a>
-<!-- Waluigi -->
-<a href="waluigi.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall waluigiSel"><div><span>Waluigi</span></div></div>
-</a>
-<!-- Ashley -->
-<a href="ashley.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall ashleySel"><div><span>Ashley</span></div></div>
-</a>
-<!-- Geno -->
-<a href="geno.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall genoSel"><div><span>Geno</span></div></div>
-</a>
-<!-- Link -->
-<a href="link.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall linkSel"><div><span>Link</span></div></div>
-</a>
-<!-- Dark Link -->
-<a href="darkLink.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall dLinkSel"><div><span>Dark Link</span></div></div>
-</a>
-<!-- Ganondorf -->
-<a href="ganondorf.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall ganonSel"><div><span>Ganondorf</span></div></div>
-</a>
-<!-- Tingle -->
-<a href="tingle.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall tingleSel"><div><span>Tingle</span></div></div>
-</a>
-<!-- Toon Link -->
-<a href="toonLink.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall tLinkSel"><div><span>Toon Link</span></div></div>
-</a>
-<!-- Pikachu -->
-<a href="pikachu.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall pikachuSel"><div><span>Pikachu</span></div></div>
-</a>
-<!-- Jigglypuff -->
-<a href="jigglypuff.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall puffSel"><div><span>Jigglypuff</span></div></div>
-</a>
-<!-- Mewtwo -->
-<a href="mewtwo.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall mewtwoSel"><div><span>Mewtwo</span></div></div>
-</a>
-<!-- Pichu -->
-<a href="pichu.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall pichuSel"><div><span>Pichu</span></div></div>
-</a>
-<!-- Scizor -->
-<a href="scizor.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall scizorSel"><div><span>Scizor</span></div></div>
-</a>
-<!-- Heracross -->
-<a href="heracross.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall heracrossSel"><div><span>Heracross</span></div></div>
-</a>
-<!-- Lucario -->
-<a href="lucario.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall lucarioSel"><div><span>Lucario</span></div></div>
-</a>
-<!-- Snivy -->
-<a href="snivy.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall snivySel"><div><span>Snivy</span></div></div>
-</a>
-<!-- Marth -->
-<a href="marth.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall marthSel"><div><span>Marth</span></div></div>
-</a>
-<!-- Samus -->
-<a href="samus.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall samusSel"><div><span>Samus</span></div></div>
-</a>
-<!-- Ridley -->
-<a href="ridley.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall ridleySel"><div><span>Ridley</span></div></div>
-</a>
-<!-- Kirby -->
-<a href="kirby.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall kirbySel"><div><span>Kirby</span></div></div>
-</a>
-<!-- Meta Knight -->
-<a href="metaKnight.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall mkSel"><div><span>Meta Knight</span></div></div>
-</a>
-<!-- Gooey -->
-<a href="gooey.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall gooeySel"><div><span>Gooey</span></div></div>
-</a>
-<!-- Fox -->
-<a href="fox.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall foxSel"><div><span>Fox</span></div></div>
-</a>
-<!-- Falco -->
-<a href="falco.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall falcoSel"><div><span>Falco</span></div></div>
-</a>
-<!-- Krystal -->
-<a href="krystal.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall krystalSel"><div><span>Krystal</span></div></div>
-</a>
-<!-- Ness -->
-<a href="ness.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall nessSel"><div><span>Ness</span></div></div>
-</a>
-<!-- Lucas -->
-<a href="lucas.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall lucasSel"><div><span>Lucas</span></div></div>
-</a>
-<!-- Porky -->
-<a href="porky.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall porkySel"><div><span>Porky</span></div></div>
-</a>
-<!-- Captain Falcon -->
-<a href="captainFalcon.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall captainSel"><div><span>Captain Falcon</span></div></div>
-</a>
-<!-- Ice Climbers -->
-<a href="iceClimbers.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall iciesSel"><div><span>Ice Climbers</span></div></div>
-</a>
-<!-- Mr. Game & Watch -->
-<a href="mrGameAndWatch.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall gnwSel"><div><span>Mr. Game &amp; Watch</span></div></div>
-</a>
-<!-- Olimar -->
-<a href="olimar.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall olimarSel"><div><span>Olimar</span></div></div>
-</a>
-<!-- R.O.B. -->
-<a href="rob.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall robSel"><div><span>R.O.B.</span></div></div>
-</a>
-<!-- Little Mac -->
-<a href="littleMac.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall macSel"><div><span>Little Mac</span></div></div>
-</a>
-<!-- Duck Hunt Dog -->
-<a href="duckHuntDog.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall huntSel"><div><span>Duck Hunt Dog</span></div></div>
-</a>
-<!-- Mach Rider -->
-<a href="machRider.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall riderSel"><div><span>Mach Rider</span></div></div>
-</a>
-<!-- Saki -->
-<a href="saki.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall sakiSel"><div><span>Saki</span></div></div>
-</a>
-<!-- Sukapon -->
-<a href="sukapon.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall sukaSel"><div><span>Sukapon</span></div></div>
-</a>
-<!-- Balloon Fighter -->
-<a href="balloonFighter.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall balloonSel"><div><span>Balloon Fighter</span></div></div>
-</a>
-<!-- Sonic -->
-<a href="sonic.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall sonicSel"><div><span>Sonic</span></div></div>
-</a>
-<!-- Tails -->
-<a href="tails.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall tailsSel"><div><span>Tails</span></div></div>
-</a>
-<!-- Knuckles -->
-<a href="knuckles.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall knucklesSel"><div><span>Knuckles</span></div></div>
-</a>
-<!-- Shadow -->
-<a href="shadow.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall shadowSel"><div><span>Shadow</span></div></div>
-</a>
-<!-- Ristar -->
-<a href="ristar.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall ristarSel"><div><span>Ristar</span></div></div>
-</a>
-<!-- Black Mage -->
-<a href="blackMage.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall mageSel"><div><span>Black Mage</span></div></div>
-</a>
-<!-- Snake -->
-<a href="snake.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall snakeSel"><div><span>Snake</span></div></div>
-</a>
-<!-- Bomberman -->
-<a href="bomberman.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall bomberSel"><div><span style="font-size: 13px">Bomberman</span></div></div>
-</a>
-<!-- Mega Man -->
-<a href="megaMan.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall megaSel"><div><span>Mega Man</span></div></div>
-</a>
-<!-- Ryu -->
-<a href="ryu.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall ryuSel"><div><span>Ryu</span></div></div>
-</a>
-<!-- Chun-li -->
-<a href="chunLi.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall chunSel"><div><span>Chun-li</span></div></div>
-</a>
-<!-- Evil Ryu -->
-<a href="evilRyu.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall eRyuSel"><div><span>Evil Ryu</span></div></div>
-</a>
-<!-- Phoenix Wright -->
-<a href="phoenixWright.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall wrightSel"><div><span>Phoenix Wright</span></div></div>
-</a>
-<!-- Dante -->
-<a href="dante.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall danteSel"><div><span>Dante</span></div></div>
-</a>
-<!-- Pac-Man -->
-<a href="pacMan.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall pacSel"><div><span>Pac-Man</span></div></div>
-</a>
-<!-- Klonoa -->
-<a href="klonoa.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall klonoaSel"><div><span>Klonoa</span></div></div>
-</a>
-<!-- Agumon -->
-<a href="agumon.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall agumonSel"><div><span>Agumon</span></div></div>
-</a>
-<!-- Patamon -->
-<a href="patamon.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall patamonSel"><div><span>Patamon</span></div></div>
-</a>
-<!-- Banjo & Kazooie -->
-<a href="banjoAndKazooie.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall banjoSel"><div><span>Banjo &amp; Kazooie</span></div></div>
-</a>
-<!-- Crash -->
-<a href="crash.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall crashSel"><div><span>Crash</span></div></div>
-</a>
-<!-- Rayman -->
-<a href="rayman.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall raymanSel"><div><span>Rayman</span></div></div>
-</a>
-<!-- Tetromino -->
-<a href="tetromino.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall tetrisSel"><div><span>Tetromino</span></div></div>
-</a>
-<!-- Shantae -->
-<a href="shantae.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall shantaeSel"><div><span>Shantae</span></div></div>
-</a>
-<!-- Nega Shantae -->
-<a href="negaShantae.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall nShantaeSel"><div><span>Nega Shantae</span></div></div>
-</a>
-<!-- Goku -->
-<a href="goku.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall gokuSel"><div><span>Goku</span></div></div>
-</a>
-<!-- Vegeta -->
-<a href="vegeta.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall vegetaSel"><div><span>Vegeta</span></div></div>
-</a>
-<!-- Weegee -->
-<a href="weegee.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall weegeeSel"><div><span>Weegee</span></div></div>
-</a>
-`;
+<div class="selectbox-container">
+	<a href="Mario.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Mario_icon.webp">
+		</div>
+	</a>
+	<a href="Luigi.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Luigi_icon.webp">
+		</div>
+	</a>
+	<a href="Peach.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Peach_icon.webp">
+		</div>
+	</a>
+	<a href="Toad.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Toad_icon.webp">
+		</div>
+	</a>
+	<a href="Dr._Mario.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Dr._Mario_icon.webp">
+		</div>
+	</a>
+	<a href="Bowser.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Bowser_icon.webp">
+		</div>
+	</a>
+	<a href="Goomba.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Goomba_icon.webp">
+		</div>
+	</a>
+	<a href="Petey_Piranha.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Petey_Piranha_icon.webp">
+		</div>
+	</a>
+	<a href="Yoshi.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Yoshi_icon.webp">
+		</div>
+	</a>
+	<a href="Donkey_Kong.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Donkey_Kong_icon.webp">
+		</div>
+	</a>
+	<a href="Wario.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Wario_icon.webp">
+		</div>
+	</a>
+	<a href="Waluigi.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Waluigi_icon.webp">
+		</div>
+	</a>
+	<a href="Ashley.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Ashley_icon.webp">
+		</div>
+	</a>
+	<a href="Geno.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Geno_icon.webp">
+		</div>
+	</a>
+	<a href="Link.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Link_icon.webp">
+		</div>
+	</a>
+	<a href="Dark_Link.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Dark_Link_icon.webp">
+		</div>
+	</a>
+	<a href="Ganondorf.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Ganondorf_icon.webp">
+		</div>
+	</a>
+	<a href="Tingle.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Tingle_icon.webp">
+		</div>
+	</a>
+	<a href="Toon_Link.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Toon_Link_icon.webp">
+		</div>
+	</a>
+	<a href="Pikachu.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Pikachu_icon.webp">
+		</div>
+	</a>
+	<a href="Jigglypuff.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Jigglypuff_icon.webp">
+		</div>
+	</a>
+	<a href="Mewtwo.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Mewtwo_icon.webp">
+		</div>
+	</a>
+	<a href="Pichu.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Pichu_icon.webp">
+		</div>
+	</a>
+	<a href="Scizor.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Scizor_icon.webp">
+		</div>
+	</a>
+	<a href="Heracross.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Heracross_icon.webp">
+		</div>
+	</a>
+	<a href="Lucario.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Lucario_icon.webp">
+		</div>
+	</a>
+	<a href="Snivy.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Snivy_icon.webp">
+		</div>
+	</a>
+	<a href="Marth.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Marth_icon.webp">
+		</div>
+	</a>
+	<a href="Samus.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Samus_icon.webp">
+		</div>
+	</a>
+	<a href="Ridley.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Ridley_icon.webp">
+		</div>
+	</a>
+	<a href="Kirby.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Kirby_icon.webp">
+		</div>
+	</a>
+	<a href="Meta_Knight.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Meta_Knight_icon.webp">
+		</div>
+	</a>
+	<a href="Gooey.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Gooey_icon.webp">
+		</div>
+	</a>
+	<a href="Fox.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Fox_icon.webp">
+		</div>
+	</a>
+	<a href="Falco.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Falco_icon.webp">
+		</div>
+	</a>
+	<a href="Krystal.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Krystal_icon.webp">
+		</div>
+	</a>
+	<a href="Ness.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Ness_icon.webp">
+		</div>
+	</a>
+	<a href="Lucas.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Lucas_icon.webp">
+		</div>
+	</a>
+	<a href="Porky.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Porky_icon.webp">
+		</div>
+	</a>
+	<a href="Captain_Falcon.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Captain_Falcon_icon.webp">
+		</div>
+	</a>
+	<a href="Ice_Climbers.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Ice_Climbers_icon.webp">
+		</div>
+	</a>
+	<a href="Mr._Game_&_Watch.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Mr._Game_&_Watch_icon.webp">
+		</div>
+	</a>
+	<a href="Olimar.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Olimar_icon.webp">
+		</div>
+	</a>
+	<a href="R.O.B..html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/R.O.B._icon.webp">
+		</div>
+	</a>
+	<a href="Little_Mac.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Little_Mac_icon.webp">
+		</div>
+	</a>
+	<a href="Duck_Hunt_Dog.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Duck_Hunt_Dog_icon.webp">
+		</div>
+	</a>
+	<a href="Mach_Rider.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Mach_Rider_icon.webp">
+		</div>
+	</a>
+	<a href="Saki.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Saki_icon.webp">
+		</div>
+	</a>
+	<a href="Sukapon.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Sukapon_icon.webp">
+		</div>
+	</a>
+	<a href="Balloon_Fighter.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Balloon_Fighter_icon.webp">
+		</div>
+	</a>
+	<a href="Sonic.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Sonic_icon.webp">
+		</div>
+	</a>
+	<a href="Tails.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Tails_icon.webp">
+		</div>
+	</a>
+	<a href="Knuckles.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Knuckles_icon.webp">
+		</div>
+	</a>
+	<a href="Shadow.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Shadow_icon.webp">
+		</div>
+	</a>
+	<a href="Ristar.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Ristar_icon.webp">
+		</div>
+	</a>
+	<a href="Black_Mage.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Black_Mage_icon.webp">
+		</div>
+	</a>
+	<div class="selectbox-spacer"></div>
+	<a href="Snake.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Snake_icon.webp">
+		</div>
+	</a>
+	<a href="Bomberman.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Bomberman_icon.webp">
+		</div>
+	</a>
+	<a href="Mega_Man.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Mega_Man_icon.webp">
+		</div>
+	</a>
+	<a href="Ryu.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Ryu_icon.webp">
+		</div>
+	</a>
+	<a href="Chun-li.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Chun-li_icon.webp">
+		</div>
+	</a>
+	<a href="Evil_Ryu.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Evil_Ryu_icon.webp">
+		</div>
+	</a>
+	<a href="Phoenix_Wright.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Phoenix_Wright_icon.webp">
+		</div>
+	</a>
+	<a href="Dante.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Dante_icon.webp">
+		</div>
+	</a>
+	<a href="Pac-Man.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Pac-Man_icon.webp">
+		</div>
+	</a>
+	<a href="Klonoa.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Klonoa_icon.webp">
+		</div>
+	</a>
+	<a href="Agumon.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Agumon_icon.webp">
+		</div>
+	</a>
+	<a href="Patamon.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Patamon_icon.webp">
+		</div>
+	</a>
+	<div class="selectbox-spacer"></div>
+	<a href="Banjo_&_Kazooie.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Banjo_&_Kazooie_icon.webp">
+		</div>
+	</a>
+	<a href="Crash.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Crash_icon.webp">
+		</div>
+	</a>
+	<a href="Rayman.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Rayman_icon.webp">
+		</div>
+	</a>
+	<a href="Tetromino.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Tetromino_icon.webp">
+		</div>
+	</a>
+	<a href="Shantae.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Shantae_icon.webp">
+		</div>
+	</a>
+	<a href="Nega_Shantae.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Nega_Shantae_icon.webp">
+		</div>
+	</a>
+	<a href="Goku.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Goku_icon.webp">
+		</div>
+	</a>
+	<a href="Vegeta.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Vegeta_icon.webp">
+		</div>
+	</a>
+	<a href="Weegee.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Weegee_icon.webp">
+		</div>
+	</a>
+	<a href="Random_Character.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssbc/Random_icon.webp">
+		</div>
+	</a>
+</div>
+`

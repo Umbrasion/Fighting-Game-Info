@@ -1,0 +1,132 @@
+body {
+	background-image: url("../../img/guiltyGearPlusR/background.png");
+}
+
+.attack {
+	
+}
+
+/* Character select */
+
+.chrSelection {
+	display: block;
+}
+
+.selectbox-container, .selectbox-fullroster  {
+	width: 660px;
+	height: 177px;
+}
+
+.selectbox-positioner {
+	pointer-events: none;
+	position: relative;
+	width: 0px;
+	height: 0px;
+}
+
+.selectbox-character img {
+	width: 74px;
+	height: 49px;
+	transition: transform 0.3s;
+	transform-origin: center;
+}
+
+/*.solSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Sol_Badguy_icon_selected.webp");
+}
+
+.kySel:hover img {
+	content: url("../../img/characterSelect/ggacr/Ky_Kiske_icon_selected.webp");
+}
+
+.maySel:hover img {
+	content: url("../../img/characterSelect/ggacr/May_icon_selected.webp");
+}
+
+.milliaSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Millia_Rage_icon_selected.webp");
+}
+
+.eddieSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Eddie_icon_selected.webp");
+}
+
+.potSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Potemkin_icon_selected.webp");
+}
+
+.chippSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Chipp_Zanuff_icon_selected.webp");
+}
+
+.faustSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Faust_icon_selected.webp");
+}
+
+.axlSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Axl_Low_icon_selected.webp");
+}
+
+.baikenSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Baiken_icon_selected.webp");
+}
+
+.anjiSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Anji_Mito_icon_selected.webp");
+}
+
+.venomSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Venom_icon_selected.webp");
+}
+
+.johnnySel:hover img {
+	content: url("../../img/characterSelect/ggacr/Johnny_icon_selected.webp");
+}
+
+.jamSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Jam_Kuradoberi_icon_selected.webp");
+}
+
+.kliffSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Kliff_Undersn_icon_selected.webp");
+}
+
+.testaSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Testament_icon_selected.webp");
+}
+
+.dizzySel:hover img {
+	content: url("../../img/characterSelect/ggacr/Dizzy_icon_selected.webp");
+}
+
+.justiceSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Justice_icon_selected.webp");
+}
+
+.bridgetSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Bridget_icon_selected.webp");
+}
+
+.slayerSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Slayer_icon_selected.webp");
+}
+
+.zappaSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Zappa_icon_selected.webp");
+}
+
+.iNoSel:hover img {
+	content: url("../../img/characterSelect/ggacr/I-No_icon_selected.webp");
+}
+
+.rKySel:hover img {
+	content: url("../../img/characterSelect/ggacr/Robo-Ky_icon_selected.webp");
+}
+
+.abaSel:hover img {
+	content: url("../../img/characterSelect/ggacr/A.B.A_icon_selected.webp");
+}
+
+.oSolSel:hover img {
+	content: url("../../img/characterSelect/ggacr/Order-Sol_icon_selected.webp");
+}*/

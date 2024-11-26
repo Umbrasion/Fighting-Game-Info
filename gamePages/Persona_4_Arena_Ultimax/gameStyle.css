@@ -1,0 +1,51 @@
+body {
+	background-image: url("../../img/persona4ArenaUltimax/background.jpg");
+}
+
+.attack {
+	
+}
+
+/* Character select */
+
+#characters {
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+
+.chrSelection {
+	display: block;
+	padding: 0px;
+}
+
+.selectbox-container {
+	width: calc(100% + 40px);
+	left: -20px;
+	overflow: clip;
+}
+
+.selectbox-character img {
+	visibility: hidden;
+	transform-origin: top left;
+}
+
+.selectbox-fullroster {
+	border-top: solid #EDEDF4 2px;
+}
+
+.selectbox-container, .selectbox-fullroster  {
+	position: relative;
+}
+
+.selectbox-fullroster {
+	width: 100%;
+}
+
+.selectbox-positioner {
+	pointer-events: none;
+	position: relative;
+	left: 0px;
+	top: 2px;
+	width: 0px;
+	height: 0px;
+}

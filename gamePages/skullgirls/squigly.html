@@ -4,7 +4,8 @@
 		<title>Squigly - Skullgirls | Amber's Fighting Game Info</title>
 		<link rel="stylesheet" href="../../styles/main.css">
 		<link rel="stylesheet" href="gameStyle.css">
-		<script src="../../scripts/main.js"></script>
+		<script src="../../scripts/main.js" defer></script>
+		<script src="../../scripts/jquery-3.7.1.min.js"></script>
 		<script src="../../scripts/onloadSG.js" defer></script>
 		<style>
 			
@@ -74,98 +75,293 @@
 						</div>
 					</div>
 					<h2 id="movesNormal">Normal Moves</h2>
-					<h4 id="move"> - </h4> <span class="moveInput"><img class="inputImage" src="../../img/inputs/input_5.png"><span class="attack"></span></span>
-					<div class="moveComment"></div>
-					<div class="contentSegment moveSegment">
-						<div>
-							<p class="boxTop">Words</p>
-							<ul class="movelistList">
-								<li>Words 1</li>
-								<li>Words 2</li>
-							</ul>
+					<div>
+						<div class="moveinput-visual"><span class="moveInput"><img class="inputImage" src="../../img/inputs/input_5.png"><span class="attack"></span></span></div>
+						<div class="moveinput-numpad"><span class="moveInput attackSkill"></span></div>
+					</div>
+					<div class="contentSegment movebox">
+						<div class="movebox-movepreview">
+							<img class="movebox-movepreview-gif" src="../../img/Move_Previews//.GIF">
+							<figcaption class="movebox-movepreview-caption"></figcaption>
 						</div>
-						<div class="propContainer">
-							<h5>Move Properties</h5>
-							<ul class="movePropList">
-								<li>Words 1</li>
-								<li>Words 2</li>
-							</ul>
+						<div>
+							<table class="movebox-statstable">
+								<thead>
+									<tr>
+										<th>Version</th>
+										<th>Damage</th>
+										<th>Guard</th>
+										<th>Startup</th>
+										<th>Active</th>
+										<th>Recovery</th>
+										<th>On Block</th>
+										<th>On Hit</th>
+										<th>Attributes</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>-</th>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td><span class="framedata-">-</span></td>
+										<td><span class="framedata-">-</span></td>
+										<td>-</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="movebox-framedisplay">
+								<div class="framedisplay-container">
+									<div class="framedisplaybox framedisplaybox-startup"></div>
+									<div class="framedisplaybox framedisplaybox-active"></div>
+									<div class="framedisplaybox framedisplaybox-recovery"></div>
+								</div>
+								<div class="framedisplay-total-container">
+									<span class="framedisplay-total">Total:</span>
+									<span class="framedisplay-total-count">Xf</span>
+								</div>
+							</div>
+							<div class="movebox-movedetails">
+								<ul class="movebox-movedetails-list">
+									<li>Notes</li>
+								</ul>
+								<p>Details</p>
+							</div>
 						</div>
 					</div>
 					<h2 id="movesUniversal">Universal Mechanics</h2>
-					<h4 id="move"> - </h4> <span class="moveInput"><img class="inputImage" src="../../img/inputs/input_5.png"><span class="attack"></span></span>
-					<div class="moveComment"></div>
-					<div class="contentSegment moveSegment">
-						<div>
-							<p class="boxTop">Words</p>
-							<ul class="movelistList">
-								<li>Words 1</li>
-								<li>Words 2</li>
-							</ul>
+					<div>
+						<div class="moveinput-visual"><span class="moveInput"><img class="inputImage" src="../../img/inputs/input_5.png"><span class="attack"></span></span></div>
+						<div class="moveinput-numpad"><span class="moveInput attackSkill"></span></div>
+					</div>
+					<div class="contentSegment movebox">
+						<div class="movebox-movepreview">
+							<img class="movebox-movepreview-gif" src="../../img/Move_Previews//.GIF">
+							<figcaption class="movebox-movepreview-caption"></figcaption>
 						</div>
-						<div class="propContainer">
-							<h5>Move Properties</h5>
-							<ul class="movePropList">
-								<li>Words 1</li>
-								<li>Words 2</li>
-							</ul>
+						<div>
+							<table class="movebox-statstable">
+								<thead>
+									<tr>
+										<th>Version</th>
+										<th>Damage</th>
+										<th>Guard</th>
+										<th>Startup</th>
+										<th>Active</th>
+										<th>Recovery</th>
+										<th>On Block</th>
+										<th>On Hit</th>
+										<th>Attributes</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>-</th>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td><span class="framedata-">-</span></td>
+										<td><span class="framedata-">-</span></td>
+										<td>-</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="movebox-framedisplay">
+								<div class="framedisplay-container">
+									<div class="framedisplaybox framedisplaybox-startup"></div>
+									<div class="framedisplaybox framedisplaybox-active"></div>
+									<div class="framedisplaybox framedisplaybox-recovery"></div>
+								</div>
+								<div class="framedisplay-total-container">
+									<span class="framedisplay-total">Total:</span>
+									<span class="framedisplay-total-count">Xf</span>
+								</div>
+							</div>
+							<div class="movebox-movedetails">
+								<ul class="movebox-movedetails-list">
+									<li>Notes</li>
+								</ul>
+								<p>Details</p>
+							</div>
 						</div>
 					</div>
 					<h2 id="movesSpecial">Special Moves</h2>
-					<h4 id="move"> - </h4> <span class="moveInput"><img class="inputImage" src="../../img/inputs/input_5.png"><span class="attack"></span></span>
-					<div class="moveComment"></div>
-					<div class="contentSegment moveSegment">
-						<div>
-							<p class="boxTop">Words</p>
-							<ul class="movelistList">
-								<li>Words 1</li>
-								<li>Words 2</li>
-							</ul>
+					<div>
+						<div class="moveinput-visual"><span class="moveInput"><img class="inputImage" src="../../img/inputs/input_5.png"><span class="attack"></span></span></div>
+						<div class="moveinput-numpad"><span class="moveInput attackSkill"></span></div>
+					</div>
+					<div class="contentSegment movebox">
+						<div class="movebox-movepreview">
+							<img class="movebox-movepreview-gif" src="../../img/Move_Previews//.GIF">
+							<figcaption class="movebox-movepreview-caption"></figcaption>
 						</div>
-						<div class="propContainer">
-							<h5>Move Properties</h5>
-							<ul class="movePropList">
-								<li>Words 1</li>
-								<li>Words 2</li>
-							</ul>
+						<div>
+							<table class="movebox-statstable">
+								<thead>
+									<tr>
+										<th>Version</th>
+										<th>Damage</th>
+										<th>Guard</th>
+										<th>Startup</th>
+										<th>Active</th>
+										<th>Recovery</th>
+										<th>On Block</th>
+										<th>On Hit</th>
+										<th>Attributes</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>-</th>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td><span class="framedata-">-</span></td>
+										<td><span class="framedata-">-</span></td>
+										<td>-</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="movebox-framedisplay">
+								<div class="framedisplay-container">
+									<div class="framedisplaybox framedisplaybox-startup"></div>
+									<div class="framedisplaybox framedisplaybox-active"></div>
+									<div class="framedisplaybox framedisplaybox-recovery"></div>
+								</div>
+								<div class="framedisplay-total-container">
+									<span class="framedisplay-total">Total:</span>
+									<span class="framedisplay-total-count">Xf</span>
+								</div>
+							</div>
+							<div class="movebox-movedetails">
+								<ul class="movebox-movedetails-list">
+									<li>Notes</li>
+								</ul>
+								<p>Details</p>
+							</div>
 						</div>
 					</div>
 					<h2 id="movesSuper">Super Moves</h2>
-					<h4 id="move"> - </h4> <span class="moveInput"><img class="inputImage" src="../../img/inputs/input_5.png"><span class="attack"></span></span>
-					<div class="moveComment"></div>
-					<div class="contentSegment moveSegment">
-						<div>
-							<p class="boxTop">Words</p>
-							<ul class="movelistList">
-								<li>Words 1</li>
-								<li>Words 2</li>
-							</ul>
+					<div>
+						<div class="moveinput-visual"><span class="moveInput"><img class="inputImage" src="../../img/inputs/input_5.png"><span class="attack"></span></span></div>
+						<div class="moveinput-numpad"><span class="moveInput attackSkill"></span></div>
+					</div>
+					<div class="contentSegment movebox">
+						<div class="movebox-movepreview">
+							<img class="movebox-movepreview-gif" src="../../img/Move_Previews//.GIF">
+							<figcaption class="movebox-movepreview-caption"></figcaption>
 						</div>
-						<div class="propContainer">
-							<h5>Move Properties</h5>
-							<ul class="movePropList">
-								<li>Words 1</li>
-								<li>Words 2</li>
-							</ul>
+						<div>
+							<table class="movebox-statstable">
+								<thead>
+									<tr>
+										<th>Version</th>
+										<th>Damage</th>
+										<th>Guard</th>
+										<th>Startup</th>
+										<th>Active</th>
+										<th>Recovery</th>
+										<th>On Block</th>
+										<th>On Hit</th>
+										<th>Attributes</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>-</th>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td><span class="framedata-">-</span></td>
+										<td><span class="framedata-">-</span></td>
+										<td>-</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="movebox-framedisplay">
+								<div class="framedisplay-container">
+									<div class="framedisplaybox framedisplaybox-startup"></div>
+									<div class="framedisplaybox framedisplaybox-active"></div>
+									<div class="framedisplaybox framedisplaybox-recovery"></div>
+								</div>
+								<div class="framedisplay-total-container">
+									<span class="framedisplay-total">Total:</span>
+									<span class="framedisplay-total-count">Xf</span>
+								</div>
+							</div>
+							<div class="movebox-movedetails">
+								<ul class="movebox-movedetails-list">
+									<li>Notes</li>
+								</ul>
+								<p>Details</p>
+							</div>
 						</div>
 					</div>
 					<h2 id="movesTaunt">Taunt</h2>
-					<h4 id="move"> - </h4> <span class="moveInput"><img class="inputImage" src="../../img/inputs/input_5.png"><span class="attack"></span></span>
-					<div class="moveComment"></div>
-					<div class="contentSegment moveSegment">
-						<div>
-							<p class="boxTop">Words</p>
-							<ul class="movelistList">
-								<li>Words 1</li>
-								<li>Words 2</li>
-							</ul>
+					<div>
+						<div class="moveinput-visual"><span class="moveInput"><img class="inputImage" src="../../img/inputs/input_5.png"><span class="attack"></span></span></div>
+						<div class="moveinput-numpad"><span class="moveInput attackSkill"></span></div>
+					</div>
+					<div class="contentSegment movebox">
+						<div class="movebox-movepreview">
+							<img class="movebox-movepreview-gif" src="../../img/Move_Previews//.GIF">
+							<figcaption class="movebox-movepreview-caption"></figcaption>
 						</div>
-						<div class="propContainer">
-							<h5>Move Properties</h5>
-							<ul class="movePropList">
-								<li>Words 1</li>
-								<li>Words 2</li>
-							</ul>
+						<div>
+							<table class="movebox-statstable">
+								<thead>
+									<tr>
+										<th>Version</th>
+										<th>Damage</th>
+										<th>Guard</th>
+										<th>Startup</th>
+										<th>Active</th>
+										<th>Recovery</th>
+										<th>On Block</th>
+										<th>On Hit</th>
+										<th>Attributes</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>-</th>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+										<td><span class="framedata-">-</span></td>
+										<td><span class="framedata-">-</span></td>
+										<td>-</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="movebox-framedisplay">
+								<div class="framedisplay-container">
+									<div class="framedisplaybox framedisplaybox-startup"></div>
+									<div class="framedisplaybox framedisplaybox-active"></div>
+									<div class="framedisplaybox framedisplaybox-recovery"></div>
+								</div>
+								<div class="framedisplay-total-container">
+									<span class="framedisplay-total">Total:</span>
+									<span class="framedisplay-total-count">Xf</span>
+								</div>
+							</div>
+							<div class="movebox-movedetails">
+								<ul class="movebox-movedetails-list">
+									<li>Notes</li>
+								</ul>
+								<p>Details</p>
+							</div>
 						</div>
 					</div>
 					<h1 id="characters"><span class="sectionCollapse"></span>Characters</h1>
@@ -180,6 +376,14 @@
 							<li><a href="#movesNormal">Normal Moves</a></li>
 							<ul>
 								<li><a href="#move"></a></li>
+								<li><a href="#movesCrouching"><b>Crouching Moves</b></a></li>
+								<ul>
+									<li><a href="#move"></a></li>
+								</ul>
+								<li><a href="#movesAir"><b>Air Moves</b></a></li>
+								<ul>
+									<li><a href="#move"></a></li>
+								</ul>
 							</ul>
 							<li><a href="#movesUniversal">Universal Mechanics</a></li>
 							<ul>

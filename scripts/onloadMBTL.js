@@ -1,6 +1,143 @@
 var characterList = document.getElementsByClassName("chrSelection")[0];
 
 characterList.innerHTML = `
+<div class="selectbox-container">
+	<div class="selectbox-column">
+		<a href="Powered_Ciel.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Powered_Ciel_icon.webp">
+			</div>
+		</a>
+		<a href="Kohaku.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Kohaku_icon.webp">
+			</div>
+		</a>
+		<div class="selectbox-spacer"></div>
+	</div>
+	<div class="selectbox-column" style="margin-top: 24px">
+		<a href="Hisui_&_Kohaku.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Hisui_&_Kohaku_icon.webp">
+			</div>
+		</a>
+		<a href="Miyako_Arima.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Miyako_Arima_icon.webp">
+			</div>
+		</a>
+		<a href="Ushiwakamaru.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Ushiwakamaru_icon.webp">
+			</div>
+		</a>
+	</div>
+	<div class="selectbox-column" style="margin-top: 48px">
+		<a href="Akiha_Tohno.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Akiha_Tohno_icon.webp">
+			</div>
+		</a>
+		<a href="Kouma_Kishima.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Kouma_Kishima_icon.webp">
+			</div>
+		</a>
+		<a href="Neco-Arc.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Neco-Arc_icon.webp">
+			</div>
+		</a>
+	</div>
+	<div class="selectbox-column" style="margin-top: 72px">
+		<a href="Arcueid_Brunestud.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Arcueid_Brunestud_icon.webp">
+			</div>
+		</a>
+		<a href="Shiki_Tohno.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Shiki_Tohno_icon.webp">
+			</div>
+		</a>
+		<a href="Mash_Kyrielight.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Mash_Kyrielight_icon.webp">
+			</div>
+		</a>
+	</div>
+	<div class="selectbox-column" style="margin-top: 72px">
+		<a href="Ciel.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Ciel_icon.webp">
+			</div>
+		</a>
+		<a href="Michael_Roa_Valdamjong.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Michael_Roa_Valdamjong_icon.webp">
+			</div>
+		</a>
+		<a href="Saber.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Saber_icon.webp">
+			</div>
+		</a>
+	</div>
+	<div class="selectbox-column" style="margin-top: 48px">
+		<a href="Noel.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Noel_icon.webp">
+			</div>
+		</a>
+		<a href="Vlov_Arkhangel.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Vlov_Arkhangel_icon.webp">
+			</div>
+		</a>
+		<a href="Aoko_Aozaki.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Aoko_Aozaki_icon.webp">
+			</div>
+		</a>
+	</div>
+	<div class="selectbox-column" style="margin-top: 24px">
+		<a href="Mario_Gallo_Bestino.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Mario_Gallo_Bestino_icon.webp">
+			</div>
+		</a>
+		<a href="Dead_Apostle_Noel.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Dead_Apostle_Noel_icon.webp">
+			</div>
+		</a>
+		<a href="The_Count_of_Monte_Cristo.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/The_Count_of_Monte_Cristo_icon.webp">
+			</div>
+		</a>
+	</div>
+	<div class="selectbox-column">
+		<a href="Red_Arcueid.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Red_Arcueid_icon.webp">
+			</div>
+		</a>
+		<a href="Hisui.html" class="selectbox-spacer">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Hisui_icon.webp">
+			</div>
+		</a>
+		<a href="Random_Character.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/mbtl/Random_icon.webp">
+			</div>
+		</a>
+	</div>
+</div>
+`
+
+/*characterList.innerHTML = `
 <!-- Arcueid Brunestud -->
 <a href="arcueidBrunestud.html" style="text-decoration: none">
 	<div class="chrPreview arcSel"><div><span>Arcueid Brunestud</span></div></div>
@@ -89,4 +226,4 @@ characterList.innerHTML = `
 <a href="theCountOfMonteCristo.html" style="text-decoration: none">
 	<div class="chrPreview edmondSel"><div><span>The Count of Monte Cristo</span></div></div>
 </a>
-`;
+`;*/

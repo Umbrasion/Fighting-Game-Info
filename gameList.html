@@ -3,7 +3,8 @@
 	<head>
 		<title>Game List | Amber's Fighting Game Info</title>
 		<link rel="stylesheet" href="styles/main.css">
-		<script src="scripts/main.js"></script>
+		<script src="scripts/main.js" defer></script>
+		<script src="scripts/jquery-3.7.1.min.js"></script>
 		<style>
 			.showcaseGrid {
 				text-align: center;
@@ -57,215 +58,252 @@
 			<div class="contentContainer" style="width: 100%; border: none">
 				<main>
 					<h1>Available Games</h1>
-					<!-- A game is considered available when all pages are present and all characters have their moves listed. Detailed information does not need to be filled out. -->
-					<!-- For the pre-release version, they only need to have all pages. -->
 					<div class="showcaseGrid">
 						<div class="gamePreview">
-							<a href="gamePages/amongUsArenaUltimate/indexAUAU.html">
+							<a href="gamePages/Among_Us_Arena_Ultimate/AUAU.html">
 								<div class="imageContainer"><img src="img/logos/small/AUAU_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/amongUsArenaUltimate/indexAUAU.html">
+							<a href="gamePages/Among_Us_Arena_Ultimate/AUAU.html">
 								<figcaption>Among Us Arena Ultimate</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/blazBlueCentralFiction/indexBBCF.html">
+							<a href="gamePages/Arcana_Heart_3_LOVEMAX_SIXSTARS!!!!!!_XTEND/AH3X.html">
+								<div class="imageContainer"><img src="img/logos/small/AH3X_logo_small.webp"></div>
+							</a>
+							<a href="gamePages/Arcana_Heart_3_LOVEMAX_SIXSTARS!!!!!!_XTEND/AH3X.html">
+								<figcaption>Arcana Heart 3 LOVEMAX SIXSTARS!!!!!! XTEND</figcaption>
+							</a>
+						</div>
+						<div class="gamePreview">
+							<a href="gamePages/BlazBlue_Central_Fiction/BBCF.html">
 								<div class="imageContainer"><img src="img/logos/small/BBCF_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/blazBlueCentralFiction/indexBBCF.html">
+							<a href="gamePages/BlazBlue_Central_Fiction/BBCF.html">
 								<figcaption>BlazBlue: Central Fiction</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/blazBlueCrossTagBattle/indexBBTAG.html">
+							<a href="gamePages/BlazBlue_Cross_Tag_Battle/BBTAG.html">
 								<div class="imageContainer"><img src="img/logos/small/BBTAG_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/blazBlueCrossTagBattle/indexBBTAG.html">
+							<a href="gamePages/BlazBlue_Cross_Tag_Battle/BBTAG.html">
 								<figcaption>BlazBlue: Cross Tag Battle</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/dnfDuel/indexDNFD.html">
+							<a href="gamePages/DNF_Duel/DNFD.html">
 								<div class="imageContainer"><img src="img/logos/small/DNFD_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/dnfDuel/indexDNFD.html">
+							<a href="gamePages/DNF_Duel/DNFD.html">
 								<figcaption>DNF Duel</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/dragonBallFighterZ/indexDBFZ.html">
+							<a href="gamePages/Dragon_Ball_FighterZ/DBFZ.html">
 								<div class="imageContainer"><img src="img/logos/small/DBFZ_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/dragonBallFighterZ/indexDBFZ.html">
+							<a href="gamePages/Dragon_Ball_FighterZ/DBFZ.html">
 								<figcaption>Dragon Ball FighterZ</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/esLaf2/indexEL2.html">
+							<a href="gamePages/E's_Laf++/EL2.html">
 								<div class="imageContainer"><img src="img/logos/small/EL2_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/esLaf2/indexEL2.html">
+							<a href="gamePages/E's_Laf++/EL2.html">
 								<figcaption>E's Laf++</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/fraymakers/indexFM.html">
+							<a href="gamePages/Fraymakers/FM.html">
 								<div class="imageContainer"><img src="img/logos/small/FM_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/fraymakers/indexFM.html">
+							<a href="gamePages/Fraymakers/FM.html">
 								<figcaption>Fraymakers</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/granblueFantasyVersusRising/indexGBVSR.html">
+							<a href="gamePages/Granblue_Fantasy_Versus_Rising/GBVSR.html">
 								<div class="imageContainer"><img src="img/logos/small/GBVSR_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/granblueFantasyVersusRising/indexGBVSR.html">
+							<a href="gamePages/Granblue_Fantasy_Versus_Rising/GBVSR.html">
 								<figcaption>Granblue Fantasy Versus: Rising</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/guiltyGearStrive/indexGGST.html">
+							<a href="gamePages/Guilty_Gear_-Strive-/GGST.html">
 								<div class="imageContainer"><img src="img/logos/small/GGST_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/guiltyGearStrive/indexGGST.html">
+							<a href="gamePages/Guilty_Gear_-Strive-/GGST.html">
 								<figcaption>Guilty Gear -Strive-</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/guiltyGearXrd/indexGGXRD.html">
+							<a href="gamePages/Guilty_Gear_Xrd_REV_2/GGXRD.html">
 								<div class="imageContainer"><img src="img/logos/small/GGXRD_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/guiltyGearXrd/indexGGXRD.html">
+							<a href="gamePages/Guilty_Gear_Xrd_REV_2/GGXRD.html">
 								<figcaption>Guilty Gear Xrd REV 2</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/guiltyGearPlusR/indexGGACR.html">
+							<a href="gamePages/Guilty_Gear_XX_Accent_Core_Plus_R/GGACR.html">
 								<div class="imageContainer"><img src="img/logos/small/GGACR_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/guiltyGearPlusR/indexGGACR.html">
+							<a href="gamePages/Guilty_Gear_XX_Accent_Core_Plus_R/GGACR.html">
 								<figcaption>Guilty Gear XX Accent Core Plus R</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/idolShowdown/indexIS.html">
-								<div class="imageContainer"><img src="img/logos/small/IS_logo_small.webp"></div>
+							<a href="gamePages/Idol_Showdown/ISD.html">
+								<div class="imageContainer"><img src="img/logos/small/ISD_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/idolShowdown/indexIS.html">
+							<a href="gamePages/Idol_Showdown/ISD.html">
 								<figcaption>Idol Showdown</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/kirbyFighters2/indexKF2.html">
+							<a href="gamePages/Kirby_Fighters_2/KF2.html">
 								<div class="imageContainer"><img src="img/logos/small/KF2_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/kirbyFighters2/indexKF2.html">
+							<a href="gamePages/Kirby_Fighters_2/KF2.html">
 								<figcaption>Kirby Fighters 2</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/meltyBloodTypeLumina/indexMBTL.html">
+							<a href="gamePages/Melty_Blood_Type_Lumina/MBTL.html">
 								<div class="imageContainer"><img src="img/logos/small/MBTL_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/meltyBloodTypeLumina/indexMBTL.html">
+							<a href="gamePages/Melty_Blood_Type_Lumina/MBTL.html">
 								<figcaption>Melty Blood: Type Lumina</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/multiversus/indexMV.html">
-								<div class="imageContainer"><img src="img/logos/small/MV_logo_small.webp"></div>
+							<a href="gamePages/Multiversus/MVS.html">
+								<div class="imageContainer"><img src="img/logos/small/MVS_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/multiversus/indexMV.html">
+							<a href="gamePages/Multiversus/MVS.html">
 								<figcaption>Multiversus</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/persona4ArenaUltimax/indexP4AU.html">
+							<a href="gamePages/Persona_4_Arena_Ultimax/P4AU.html">
 								<div class="imageContainer"><img src="img/logos/small/P4AU_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/persona4ArenaUltimax/indexP4AU.html">
+							<a href="gamePages/Persona_4_Arena_Ultimax/P4AU.html">
 								<figcaption>Persona 4 Arena Ultimax</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/rivalsOfAether/indexROA.html">
+							<a href="gamePages/Rivals_of_Aether/ROA.html">
 								<div class="imageContainer"><img src="img/logos/small/ROA_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/rivalsOfAether/indexROA.html">
+							<a href="gamePages/Rivals_of_Aether/ROA.html">
 								<figcaption>Rivals of Aether</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/skullgirls/indexSG.html">
+							<a href="gamePages/Skullgirls/SG.html">
 								<div class="imageContainer"><img src="img/logos/small/SG_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/skullgirls/indexSG.html">
+							<a href="gamePages/Skullgirls/SG.html">
 								<figcaption>Skullgirls</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/superSmashBrosCrusade/indexSSBC.html">
+							<a href="gamePages/Super_Smash_Bros._Crusade/SSBC.html">
 								<div class="imageContainer"><img src="img/logos/small/SSBC_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/superSmashBrosCrusade/indexSSBC.html">
+							<a href="gamePages/Super_Smash_Bros_Crusade/SSBC.html">
 								<figcaption>Super Smash Bros. Crusade</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/superSmashBrosUltimate/indexSSBU.html">
+							<a href="gamePages/Super_Smash_Bros._Ultimate/SSBU.html">
 								<div class="imageContainer"><img src="img/logos/small/SSBU_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/superSmashBrosUltimate/indexSSBU.html">
+							<a href="gamePages/Super_Smash_Bros_Ultimate/SSBU.html">
 								<figcaption>Super Smash Bros. Ultimate</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/superSmashFlash2/indexSSF2.html">
+							<a href="gamePages/Super_Smash_Flash_2/SSF2.html">
 								<div class="imageContainer"><img src="img/logos/small/SSF2_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/superSmashFlash2/indexSSF2.html">
+							<a href="gamePages/Super_Smash_Flash_2/SSF2.html">
 								<figcaption>Super Smash Flash 2</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/touhouHisoutensoku/indexSOKU.html">
+							<a href="gamePages/Touhou_Hisoutensoku/SOKU.html">
 								<div class="imageContainer"><img src="img/logos/small/SOKU_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/touhouHisoutensoku/indexSOKU.html">
+							<a href="gamePages/Touhou_Hisoutensoku/SOKU.html">
 								<figcaption>Touhou Hisoutensoku</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/antinomyOfCommonFlowers/indexAOCF.html">
+							<a href="gamePages/Touhou_Hyouibana_~_Antinomy_of_Common_Flowers/AOCF.html">
 								<div class="imageContainer"><img src="img/logos/small/AOCF_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/antinomyOfCommonFlowers/indexAOCF.html">
+							<a href="gamePages/Touhou_Hyouibana_~_Antinomy_of_Common_Flowers/AOCF.html">
 								<figcaption>Touhou Hyouibana ~ Antinomy of Common Flowers</figcaption>
 							</a>
 						</div>
 						<div class="gamePreview">
-							<a href="gamePages/underNightInBirthII/indexUNI2.html">
+							<a href="gamePages/Under_Night_In-Birth_II_SysCeles/UNI2.html">
 								<div class="imageContainer"><img src="img/logos/small/UNI2_logo_small.webp"></div>
 							</a>
-							<a href="gamePages/underNightInBirthII/indexUNI2.html">
+							<a href="gamePages/Under_Night_In-Birth_II_SysCeles/UNI2.html">
 								<figcaption>Under Night In-Birth II Sys:Celes</figcaption>
 							</a>
 						</div>
 					</div>
 					<h1>Under Construction</h1>
-					<!-- A game is considered under construction when pages are missing or characters do not have all moves listed. -->
 					<div class="showcaseGrid">
+						<div class="gamePreview">
+							<a href="gamePages/Pokken_Tournament_DX/PTDX.html">
+								<div class="imageContainer"><img src="img/logos/small/PTDX_logo_small.webp"></div>
+							</a>
+							<a href="gamePages/Pokken_Tournament_DX/PTDX.html">
+								<figcaption>Pokkén Tournament DX</figcaption>
+							</a>
+						</div>
+						<div class="gamePreview">
+							<a href="gamePages/Street_Fighter_6/SF6.html">
+								<div class="imageContainer"><img src="img/logos/small/SF6_logo_small.webp"></div>
+							</a>
+							<a href="gamePages/Street_Fighter_6/SF6.html">
+								<figcaption>Street Fighter 6</figcaption>
+							</a>
+						</div>
+						<div class="gamePreview">
+							<a href="gamePages/Tekken_8/T8.html">
+								<div class="imageContainer"><img src="img/logos/small/T8_logo_small.webp"></div>
+							</a>
+							<a href="gamePages/Tekken_8/T8.html">
+								<figcaption>Tekken 8</figcaption>
+							</a>
+						</div>
 					</div>
 					<h1>Possible Future Games</h1>
 					<div class="showcaseGrid">
 						<div class="gamePreview">
-							<div class="imageContainer"><img src="img/logos/small/AH3X_logo_small.webp"></div>
-							<figcaption>Arcana Heart 3 LOVEMAX SIXSTARS!!!!!! XTEND</figcaption>
+							<div class="imageContainer"><img src="img/logos/small/GGML_logo_small.webp"></div>
+							<figcaption>Guilty Gear: Missing Link</figcaption>
 						</div>
 						<div class="gamePreview">
-							<div class="imageContainer"><img src="img/logos/small/PTDX_logo_small.webp"></div>
-							<figcaption>Pokkén Tournament DX</figcaption>
+							<div class="imageContainer"><img src="img/logos/small/KLKIF_logo_small.webp"></div>
+							<figcaption>KILL la KILL -IF</figcaption>
+						</div>
+						<div class="gamePreview">
+							<div class="imageContainer"><img src="img/logos/small/MBAACC_logo_small.webp"></div>
+							<figcaption>Melty Blood: Actress Again Current Code</figcaption>
+						</div>
+						<div class="gamePreview">
+							<div class="imageContainer"><img src="img/logos/small/ROA2_logo_small.webp"></div>
+							<figcaption>Rivals of Aether 2</figcaption>
 						</div>
 						<div class="gamePreview">
 							<div class="imageContainer"><img src="img/logos/small/SKS_logo_small.webp"></div>
@@ -276,12 +314,12 @@
 							<figcaption>Slap City</figcaption>
 						</div>
 						<div class="gamePreview">
-							<div class="imageContainer"><img src="img/logos/small/SF6_logo_small.webp"></div>
-							<figcaption>Street Fighter 6</figcaption>
+							<div class="imageContainer"><img src="img/logos/small/TF_logo_small.webp"></div>
+							<figcaption>Toy Fighter</figcaption>
 						</div>
 						<div class="gamePreview">
-							<div class="imageContainer"><img src="img/logos/small/T8_logo_small.webp"></div>
-							<figcaption>Tekken 8</figcaption>
+							<div class="imageContainer"><img src="img/logos/small/UMVC3_logo_small.webp"></div>
+							<figcaption>Ultimate Marvel vs. Capcom 3</figcaption>
 						</div>
 					</div>
 				</main>

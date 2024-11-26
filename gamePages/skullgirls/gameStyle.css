@@ -8,74 +8,117 @@ body {
 
 /* Character select */
 
-.filiaSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Filia.png");
+main {
+	padding-bottom: 0px;
 }
 
-.bellaSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Cerebella.png");
+.chrSelection {
+	display: block;
+	padding-bottom: 0px;
 }
 
-.peacockSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Peacock.png");
+.selectbox-container {
+	width: 738px;
+	height: 1080px;
+	background-image: url("../../img/characterSelect/sg/Layout_background.webp");
 }
 
-.parasoulSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Parasoul.png");
+.selectbox-container a {
+	display: block;
+	transition: none;
 }
 
-.fortuneSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/MsFortune.png");
+.selectbox-container a:hover {
+	transform: none;
 }
 
-.painSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Painwheel.png");
+.selectbox-element {
+	position: relative;
+	width: 0px;
+	height: 0px;
 }
 
-.valentineSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Valentine.png");
+.selectbox-element a, .selectbox-character {
+	width: 102px;
+	height: 105px;
 }
 
-.doubleSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Double.png");
+.selectbox-overlay {
+	pointer-events: none;
 }
 
-.squiglySel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Squigly.png");
+.filiaSel:hover img {
+	content: url("../../img/characterSelect/sg/Filia_icon_selected.webp");
 }
 
-.bandSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/BigBand.png");
+.bellaSel:hover img {
+	content: url("../../img/characterSelect/sg/Cerebella_icon_selected.webp");
 }
 
-.elizaSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Eliza.png");
+.peacockSel:hover img {
+	content: url("../../img/characterSelect/sg/Peacock_icon_selected.webp");
 }
 
-.fukuaSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Fukua.png");
+.parasoulSel:hover img {
+	content: url("../../img/characterSelect/sg/Parasoul_icon_selected.webp");
 }
 
-.beowulfSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Beowulf.png");
+.fortuneSel:hover img {
+	content: url("../../img/characterSelect/sg/Ms._Fortune_icon_selected.webp");
 }
 
-.rFortuneSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/RoboFortune.png");
+.painSel:hover img {
+	content: url("../../img/characterSelect/sg/Painwheel_icon_selected.webp");
 }
 
-.annieSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Annie.png");
+.valentineSel:hover img {
+	content: url("../../img/characterSelect/sg/Valentine_icon_selected.webp");
 }
 
-.umbrellaSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Umbrella.png");
+.doubleSel:hover img {
+	content: url("../../img/characterSelect/sg/Double_icon_selected.webp");
 }
 
-.dahliaSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/BlackDahlia.png");
+.squiglySel:hover img {
+	content: url("../../img/characterSelect/sg/Squigly_icon_selected.webp");
 }
 
-.marieSel {
-	background-image: url("../../img/skullgirls/portraits/chrSelect/Marie.png");
+.bandSel:hover img {
+	content: url("../../img/characterSelect/sg/Big_Band_icon_selected.webp");
+}
+
+.elizaSel:hover img {
+	content: url("../../img/characterSelect/sg/Eliza_icon_selected.webp");
+}
+
+.fukuaSel:hover img {
+	content: url("../../img/characterSelect/sg/Fukua_icon_selected.webp");
+}
+
+.beowulfSel:hover img {
+	content: url("../../img/characterSelect/sg/Beowulf_icon_selected.webp");
+}
+
+.rFortuneSel:hover img {
+	content: url("../../img/characterSelect/sg/Robo-Fortune_icon_selected.webp");
+}
+
+.annieSel:hover img {
+	content: url("../../img/characterSelect/sg/Annie_icon_selected.webp");
+}
+
+.umbrellaSel:hover img {
+	content: url("../../img/characterSelect/sg/Umbrella_icon_selected.webp");
+}
+
+.dahliaSel:hover img {
+	content: url("../../img/characterSelect/sg/Black_Dahlia_icon_selected.webp");
+}
+
+.marieSel:hover img {
+	content: url("../../img/characterSelect/sg/Marie_icon_selected.webp");
+}
+
+.randomSel:hover img {
+	content: url("../../img/characterSelect/sg/Random_icon_selected.webp");
 }

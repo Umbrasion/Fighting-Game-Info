@@ -1,116 +1,170 @@
 var characterList = document.getElementsByClassName("chrSelection")[0];
 
 characterList.innerHTML = `
-<!-- Sol Badguy -->
-<a href="solBadguy.html" style="text-decoration: none">
-	<div class="chrPreview solSel"><div><span>Sol Badguy</span></div></div>
-</a>
-<!-- Ky Kiske -->
-<a href="kyKiske.html" style="text-decoration: none">
-	<div class="chrPreview kySel"><div><span>Ky Kiske</span></div></div>
-</a>
-<!-- May -->
-<a href="may.html" style="text-decoration: none">
-	<div class="chrPreview maySel"><div><span>May</span></div></div>
-</a>
-<!-- Axl Low -->
-<a href="axlLow.html" style="text-decoration: none">
-	<div class="chrPreview axlSel"><div><span>Axl Low</span></div></div>
-</a>
-<!-- Chipp Zanuff -->
-<a href="chippZanuff.html" style="text-decoration: none">
-	<div class="chrPreview chippSel"><div><span>Chipp Zanuff</span></div></div>
-</a>
-<!-- Potemkin -->
-<a href="potemkin.html" style="text-decoration: none">
-	<div class="chrPreview potSel"><div><span>Potemkin</span></div></div>
-</a>
-<!-- Faust -->
-<a href="faust.html" style="text-decoration: none">
-	<div class="chrPreview faustSel"><div><span>Faust</span></div></div>
-</a>
-<!-- Millia Rage -->
-<a href="milliaRage.html" style="text-decoration: none">
-	<div class="chrPreview milliaSel"><div><span>Millia Rage</span></div></div>
-</a>
-<!-- Zato=1 -->
-<a href="zato1.html" style="text-decoration: none">
-	<div class="chrPreview zatoSel"><div><span>Zato=1</span></div></div>
-</a>
-<!-- Ramlethal Valentine -->
-<a href="ramlethalValentine.html" style="text-decoration: none">
-	<div class="chrPreview ramSel"><div><span>Ramlethal Valentine</span></div></div>
-</a>
-<!-- Leo Whitefang -->
-<a href="leoWhitefang.html" style="text-decoration: none">
-	<div class="chrPreview leoSel"><div><span>Leo Whitefang</span></div></div>
-</a>
-<!-- Nagoriyuki -->
-<a href="nagoriyuki.html" style="text-decoration: none">
-	<div class="chrPreview nagoSel"><div><span>Nagoriyuki</span></div></div>
-</a>
-<!-- Giovanna -->
-<a href="giovanna.html" style="text-decoration: none">
-	<div class="chrPreview gioSel"><div><span>Giovanna</span></div></div>
-</a>
-<!-- Anji Mito -->
-<a href="anjiMito.html" style="text-decoration: none">
-	<div class="chrPreview anjiSel"><div><span>Anji Mito</span></div></div>
-</a>
-<!-- I-No -->
-<a href="iNo.html" style="text-decoration: none">
-	<div class="chrPreview iNoSel"><div><span>I-No</span></div></div>
-</a>
-<!-- Goldlewis Dickinson -->
-<a href="goldlewisDickinson.html" style="text-decoration: none">
-	<div class="chrPreview goldSel"><div><span>Goldlewis Dickinson</span></div></div>
-</a>
-<!-- Jack-O' Valentine -->
-<a href="jackOValentine.html" style="text-decoration: none">
-	<div class="chrPreview jackOSel"><div><span>Jack-O' Valentine</span></div></div>
-</a>
-<!-- Happy Chaos -->
-<a href="happyChaos.html" style="text-decoration: none">
-	<div class="chrPreview chaosSel"><div><span>Happy Chaos</span></div></div>
-</a>
-<!-- Baiken -->
-<a href="baiken.html" style="text-decoration: none">
-	<div class="chrPreview baikenSel"><div><span>Baiken</span></div></div>
-</a>
-<!-- Testament -->
-<a href="testament.html" style="text-decoration: none">
-	<div class="chrPreview testaSel"><div><span>Testament</span></div></div>
-</a>
-<!-- Bridget -->
-<a href="bridget.html" style="text-decoration: none">
-	<div class="chrPreview bridgetSel"><div><span>Bridget</span></div></div>
-</a>
-<!-- Sin Kiske -->
-<a href="sinKiske.html" style="text-decoration: none">
-	<div class="chrPreview sinSel"><div><span>Sin Kiske</span></div></div>
-</a>
-<!-- Bedman? -->
-<a href="bedman.html" style="text-decoration: none">
-	<div class="chrPreview bedmanSel"><div><span>Bedman?</span></div></div>
-</a>
-<!-- Asuka R♯ -->
-<a href="asukaRKreutz.html" style="text-decoration: none">
-	<div class="chrPreview asukaSel"><div><span>Asuka R♯</span></div></div>
-</a>
-<!-- Johnny -->
-<a href="johnny.html" style="text-decoration: none">
-	<div class="chrPreview johnnySel"><div><span>Johnny</span></div></div>
-</a>
-<!-- Elphelt Valentine -->
-<a href="elpheltValentine.html" style="text-decoration: none">
-	<div class="chrPreview elpheltSel"><div><span>Elphelt Valentine</span></div></div>
-</a>
-<!-- A.B.A -->
-<a href="aba.html" style="text-decoration: none">
-	<div class="chrPreview abaSel"><div><span>A.B.A</span></div></div>
-</a>
-<!-- Slayer -->
-<a href="slayer.html" style="text-decoration: none">
-	<div class="chrPreview slayerSel"><div><span>Slayer</span></div></div>
-</a>
-`;
+<div class="selectbox-container">
+	<div class="selectbox-row" style="gap: 9px; margin-bottom: 20px">
+		<a href="Queen_Dizzy.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Queen_Dizzy_icon.webp" id="sampleImage" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Johnny.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Johnny_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Testament.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Testament_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Jack-O'_Valentine.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Jack-O'_Valentine_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Nagoriyuki.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Nagoriyuki_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Millia_Rage.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Millia_Rage_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Chipp_Zanuff.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Chipp_Zanuff_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Sol_Badguy.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Sol_Badguy_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Ky_Kiske.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Ky_Kiske_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="May.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/May_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Zato-1.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Zato-1_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="I-No.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/I-No_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Happy_Chaos.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Happy_Chaos_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Bedman.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Bedman_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Elphelt_Valentine.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Elphelt_Valentine_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<div class="selectbox-spacer selectbox-image" style=""></div>
+	</div>
+	<div class="selectbox-row" style="gap: 9px">
+		<a href="A.B.A.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/A.B.A_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Sin_Kiske.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Sin_Kiske_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Baiken.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Baiken_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Anji_Mito.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Anji_Mito_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Leo_Whitefang.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Leo_Whitefang_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Faust.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Faust_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Axl_Low.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Axl_Low_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Random_Character.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Random_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Potemkin.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Potemkin_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Ramlethal_Valentine.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Ramlethal_Valentine_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Giovanna.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Giovanna_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Goldlewis_Dickinson.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Goldlewis_Dickinson_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Bridget.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Bridget_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Asuka_R._Kreutz.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Asuka_R._Kreutz_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+		<a href="Slayer.html">
+			<div class="selectbox selectbox-character">
+				<img src="../../img/characterSelect/ggst/Slayer_icon.webp" class="selectbox-image" style="">
+			</div>
+		</a>
+	</div>
+</div>
+`
+
+$(window).resize(setSize);
+
+function setSize() {
+	flexResize([9, 20]);
+	setTimeout(setSize, 1);
+}
+
+document.getElementById("sampleImage").onload = setSize();

@@ -94,3 +94,51 @@ function playAnnouncer(clipPath) {
 	announcer.volume = 0.1;
 	announcer.play();
 }
+
+var collapse = document.getElementsByClassName("collapseButton");
+
+for (i = 0; i < collapse.length; i++) {
+	collapse[i].addEventListener("click", function() {
+		this.classList.toggle("collapseActive");
+		var collapseContent = this.nextElementSibling;
+		if (collapseContent.style.display == "block") {
+			collapseContent.style.display = "none";
+		} else {
+			collapseContent.style.display = "block";
+		}
+	});
+}
+
+var useNumpadNotation = sessionStorage.getItem('numpad');
+console.log(useNumpadNotation);
+
+function setInputType() {
+	var inputsVisual = document.getElementsByClassName("moveinput-visual");
+	var inputsNumpad = document.getElementsByClassName("moveinput-numpad");
+	
+	if (useNumpadNotation == null) {
+		useNumpadNotation = "false";
+	}
+	
+	for (i = 0; i < inputsVisual.length; i++) {
+		if (useNumpadNotation == "true") {
+			inputsVisual[i].style.display = "none";
+			inputsNumpad[i].style.display = "block";
+		} else if (useNumpadNotation = "false") {
+			inputsVisual[i].style.display = "block";
+			inputsNumpad[i].style.display = "none";
+		}
+	}
+}
+
+setInputType();
+
+$("input[type='button'][value='Toggle numpad notation']").click(function() {
+	if (useNumpadNotation == "true") {
+		sessionStorage.setItem("numpad", "false");
+	} else if (useNumpadNotation == "false") {
+		sessionStorage.setItem("numpad", "true");
+	}
+	useNumpadNotation = sessionStorage.getItem("numpad");
+	setInputType();
+});

@@ -1,0 +1,29 @@
+body {
+	background-image: url("../../img/idolShowdown/background.png");
+}
+
+/* Character select */
+
+.chrSelection {
+	display: block;
+}
+
+.selectbox-container, .selectbox-fullroster  {
+	width: 645px;
+	height: 645px;
+}
+
+.selectbox-positioner {
+	pointer-events: none;
+	position: relative;
+	width: 0px;
+	height: 0px;
+	transition: z-index 0.3s;
+}
+
+.selectbox-character img {
+	width: 132px;
+	height: 132px;
+	transition: transform 0.3s;
+	transform-origin: center;
+}

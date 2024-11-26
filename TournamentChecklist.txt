@@ -1,0 +1,3 @@
+- Figure out Ryujinx button binding issue
+- Create conditions for all games
+- Create tournament rules

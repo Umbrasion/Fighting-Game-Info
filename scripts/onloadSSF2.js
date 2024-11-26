@@ -1,6 +1,251 @@
 var characterList = document.getElementsByClassName("chrSelection")[0];
 
 characterList.innerHTML = `
+<div class="selectbox-container">
+	<a href="Mario.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Mario_icon.webp">
+		</div>
+	</a>
+	<a href="Luigi.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Luigi_icon.webp">
+		</div>
+	</a>
+	<a href="Peach.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Peach_icon.webp">
+		</div>
+	</a>
+	<a href="Bowser.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Bowser_icon.webp">
+		</div>
+	</a>
+	<a href="Yoshi.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Yoshi_icon.webp">
+		</div>
+	</a>
+	<a href="Wario.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Wario_icon.webp">
+		</div>
+	</a>
+	<a href="Waluigi.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Waluigi_icon.webp">
+		</div>
+	</a>
+	<a href="Donkey_Kong.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Donkey_Kong_icon.webp">
+		</div>
+	</a>
+	<a href="Link.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Link_icon.webp">
+		</div>
+	</a>
+	<a href="Zelda.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Zelda_icon.webp">
+		</div>
+	</a>
+	<a href="Sheik.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Sheik_icon.webp">
+		</div>
+	</a>
+	<a href="Ganondorf.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Ganondorf_icon.webp">
+		</div>
+	</a>
+	<a href="Pikachu.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Pikachu_icon.webp">
+		</div>
+	</a>
+	<a href="Jigglypuff.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Jigglypuff_icon.webp">
+		</div>
+	</a>
+	<a href="Pichu.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Pichu_icon.webp">
+		</div>
+	</a>
+	<a href="Lucario.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Lucario_icon.webp">
+		</div>
+	</a>
+	<a href="Kirby.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Kirby_icon.webp">
+		</div>
+	</a>
+	<a href="Meta_Knight.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Meta_Knight_icon.webp">
+		</div>
+	</a>
+	<a href="Bandana_Dee.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Bandana_Dee_icon.webp">
+		</div>
+	</a>
+	<a href="Fox.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Fox_icon.webp">
+		</div>
+	</a>
+	<a href="Falco.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Falco_icon.webp">
+		</div>
+	</a>
+	<a href="Krystal.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Krystal_icon.webp">
+		</div>
+	</a>
+	<a href="Samus.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Samus_icon.webp">
+		</div>
+	</a>
+	<a href="Zero_Suit_Samus.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Zero_Suit_Samus_icon.webp">
+		</div>
+	</a>
+	<a href="Captain_Falcon.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Captain_Falcon_icon.webp">
+		</div>
+	</a>
+	<a href="Ness.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Ness_icon.webp">
+		</div>
+	</a>
+	<a href="Marth.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Marth_icon.webp">
+		</div>
+	</a>
+	<a href="Pit.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Pit_icon.webp">
+		</div>
+	</a>
+	<a href="Isaac.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Isaac_icon.webp">
+		</div>
+	</a>
+	<a href="Chibi-Robo.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Chibi-Robo_icon.webp">
+		</div>
+	</a>
+	<a href="Mr._Game_&_Watch.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Mr._Game_&_Watch_icon.webp">
+		</div>
+	</a>
+	<a href="Sonic.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Sonic_icon.webp">
+		</div>
+	</a>
+	<a href="Tails.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Tails_icon.webp">
+		</div>
+	</a>
+	<a href="Mega_Man.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Mega_Man_icon.webp">
+		</div>
+	</a>
+	<a href="Ryu.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Ryu_icon.webp">
+		</div>
+	</a>
+	<a href="Pac-Man.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Pac-Man_icon.webp">
+		</div>
+	</a>
+	<a href="Lloyd.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Lloyd_icon.webp">
+		</div>
+	</a>
+	<a href="Simon.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Simon_icon.webp">
+		</div>
+	</a>
+	<a href="Bomberman.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Bomberman_icon.webp">
+		</div>
+	</a>
+	<a href="Black_Mage.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Black_Mage_icon.webp">
+		</div>
+	</a>
+	<a href="Sora.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Sora_icon.webp">
+		</div>
+	</a>
+	<a href="Rayman.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Rayman_icon.webp">
+		</div>
+	</a>
+	<a href="Goku.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Goku_icon.webp">
+		</div>
+	</a>
+	<a href="Luffy.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Luffy_icon.webp">
+		</div>
+	</a>
+	<a href="Naruto.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Naruto_icon.webp">
+		</div>
+	</a>
+	<a href="Ichigo.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Ichigo_icon.webp">
+		</div>
+	</a>
+	<a href="Sandbag.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Sandbag_icon.webp">
+		</div>
+	</a>
+	<a href="Random_Character.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/ssf2/Random_icon.webp">
+		</div>
+	</a>
+</div>
+`
+
+/*characterList.innerHTML = `
 <!-- Mario -->
 <a href="mario.html" style="text-decoration: none">
 	<div class="chrPreview marioSel"><div><span>Mario</span></div></div>
@@ -189,4 +434,4 @@ characterList.innerHTML = `
 <a href="sandbag.html" style="text-decoration: none">
 	<div class="chrPreview sandSel"><div><span>Sandbag</span></div></div>
 </a>
-`;
+`;*/

@@ -1,6 +1,141 @@
 var characterList = document.getElementsByClassName("chrSelection")[0];
 
 characterList.innerHTML = `
+<div class="selectbox-container">
+	<a href="Kuon.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Kuon_icon.webp">
+		</div>
+	</a>
+	<a href="Phonon.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Phonon_icon.webp">
+		</div>
+	</a>
+	<a href="Nanase.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Nanase_icon.webp">
+		</div>
+	</a>
+	<a href="Seth.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Seth_icon.webp">
+		</div>
+	</a>
+	<a href="Waldstein.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Waldstein_icon.webp">
+		</div>
+	</a>
+	<a href="Hyde.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Hyde_icon.webp">
+		</div>
+	</a>
+	<a href="Random_Character.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Random_icon.webp">
+		</div>
+	</a>
+	<a href="Linne.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Linne_icon.webp">
+		</div>
+	</a>
+	<a href="Carmine.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Carmine_icon.webp">
+		</div>
+	</a>
+	<a href="Yuzuriha.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Yuzuriha_icon.webp">
+		</div>
+	</a>
+	<a href="Byakuya.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Byakuya_icon.webp">
+		</div>
+	</a>
+	<a href="Mika.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Mika_icon.webp">
+		</div>
+	</a>
+	<a href="Kaguya.html">
+		<div class="selectbox selectbox-character size-toprow">
+			<img src="../../img/characterSelect/uni2/Kaguya_icon.webp">
+		</div>
+	</a>
+	<a href="Eltnum.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Eltnum_icon.webp">
+		</div>
+	</a>
+	<a href="Tsurugi.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Tsurugi_icon.webp">
+		</div>
+	</a>
+	<a href="Hilda.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Hilda_icon.webp">
+		</div>
+	</a>
+	<a href="Merkava.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Merkava_icon.webp">
+		</div>
+	</a>
+	<a href="Orie.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Orie_icon.webp">
+		</div>
+	</a>
+	<a href="Wagner.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Wagner_icon.webp">
+		</div>
+	</a>
+	<a href="Uzuki.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Uzuki_icon.webp">
+		</div>
+	</a>
+	<a href="Enkidu.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Enkidu_icon.webp">
+		</div>
+	</a>
+	<a href="Gordeau.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Gordeau_icon.webp">
+		</div>
+	</a>
+	<a href="Vatista.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Vatista_icon.webp">
+		</div>
+	</a>
+	<a href="Chaos.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Chaos_icon.webp">
+		</div>
+	</a>
+	<a href="Londrekia.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Londrekia_icon.webp">
+		</div>
+	</a>
+	<a href="Akatsuki.html">
+		<div class="selectbox selectbox-character size-bottomrow">
+			<img src="../../img/characterSelect/uni2/Akatsuki_icon.webp">
+		</div>
+	</a>
+</div>
+`
+
+/*characterList.innerHTML = `
 <!-- Hyde -->
 <a href="hyde.html" style="text-decoration: none">
 	<div class="chrPreview hydeSel"><div><span>Hyde</span></div></div>
@@ -101,4 +236,4 @@ characterList.innerHTML = `
 <a href="akatsuki.html" style="text-decoration: none">
 	<div class="chrPreview akatsukiSel"><div><span>Akatsuki</span></div></div>
 </a>
-`;
+`;*/

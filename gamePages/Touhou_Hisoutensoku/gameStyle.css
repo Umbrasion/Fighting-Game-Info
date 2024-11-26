@@ -1,0 +1,106 @@
+body {
+	background-image: url("../../img/touhouHisoutensoku/background.jpg");
+}
+
+.attack {
+	
+}
+
+/* Character select */
+
+.chrSelection {
+	display: block;
+	max-width: none;
+}
+
+.selectbox-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 0px;
+}
+
+.selectbox-character, .selectbox-character img {
+	width: 54px;
+	height: 216px;
+}
+
+.reimuSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/ReimuHakurei.png");
+}
+
+.marisaSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/MarisaKirisame.png");
+}
+
+.sakuyaSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/SakuyaIzayoi.png");
+}
+
+.aliceSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/AliceMargatroid.png");
+}
+
+.patchySel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/PatchouliKnowledge.png");
+}
+
+.youmuSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/YoumuKonpaku.png");
+}
+
+.remiliaSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/RemiliaScarlet.png");
+}
+
+.yuyukoSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/YuyukoSaigyouji.png");
+}
+
+.yukariSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/YukariYakumo.png");
+}
+
+.suikaSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/SuikaIbuki.png");
+}
+
+.reisenSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/ReisenUdongeinInaba.png");
+}
+
+.ayaSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/AyaShameimaru.png");
+}
+
+.komachiSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/KomachiOnozuka.png");
+}
+
+.ikuSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/IkuNagae.png");
+}
+
+.tenshiSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/TenshiHinanawi.png");
+}
+
+.sanaeSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/SanaeKochiya.png");
+}
+
+.cirnoSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/Cirno.png");
+}
+
+.meilingSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/HongMeiling.png");
+}
+
+.okuuSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/UtsuhoReiuji.png");
+}
+
+.suwakoSel {
+	background-image: url("../../img/touhouHisoutensoku/portraits/chrSelect/SuwakoMoriya.png");
+}

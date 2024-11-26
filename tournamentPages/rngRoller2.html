@@ -3,15 +3,18 @@
 	<head>
 		<title>Tournament Spinner 2 | Amber's Fighting Game Guide</title>
 		<link rel="stylesheet" href="../styles/main.css">
-		<script src="../scripts/roller.js"></script>
+		<script src="../scripts/roller2.js" defer></script>
 		<style>
 			@font-face {
 				font-family: "Doodlian";
 				src: Doodlian-Regular.ttf;
 			}
 			body {
-				font-family: "Doodlian";
+				font-family: "Doodlian", "Arial";
 				text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+			}
+			button {
+				font-family: "Doodlian", "Arial";
 			}
 			.spinnerArea {
 				background-image: url("../img/tourney/platform_fighter_infobar.png");
@@ -20,11 +23,10 @@
 				height: 57px;
 				font-size: 30px;
 				text-align: center;
-				padding-top: 12px;
-				margin: auto;
+				margin: 6px auto 28px;
+				line-height: 57px;
 			}
 			.spinButton {
-				font-family: "Doodlian";
 				font-size: 50px;
 				margin: auto;
 				display: block;
@@ -61,9 +63,13 @@
 				border-bottom: none;
 			}
 			h3 {
-				margin: 0px 0px 8px 0px;
+				margin: 0px 0px 0px 0px;
 				text-align: center;
 				font-size: 40px;
+			}
+			.subtitle {
+				margin: 6px 0px;
+				font-size: 18px;
 			}
 			#button2 {
 				display: none;
@@ -74,23 +80,112 @@
 				font-size: 28px;
 			}
 			.contentGrid {
-				grid-template-columns: 22% 56% 22%;
+				grid-template-columns: 27% 46% 27%;
+				aspect-ratio: 16 / 9;
 			}
-			nav {
+			#rngmode {
+				display: none;
+				text-align: center;
+				margin-top: 20px;
+			}
+			#rngmode span {
+				background: linear-gradient(
+					90deg,
+					rgba(255, 0, 0, 1) 0%,
+					rgba(255, 154, 0, 1) 10%,
+					rgba(208, 222, 33, 1) 20%,
+					rgba(79, 220, 74, 1) 30%,
+					rgba(63, 218, 216, 1) 40%,
+					rgba(47, 201, 226, 1) 50%,
+					rgba(28, 127, 238, 1) 60%,
+					rgba(95, 21, 242, 1) 70%,
+					rgba(186, 12, 248, 1) 80%,
+					rgba(251, 7, 217, 1) 90%,
+					rgba(255, 0, 0, 1) 100%
+				);
+				background-clip: text;
+				color: transparent;
+				text-shadow: none;
+				font-size: 38px;
+			}
+			aside {
 				background-color: #2C3F28;
 				border: 11px solid transparent;
 				border-image: url("../img/tourney/borderImage.png") round;
 				border-image-slice: 11;
 				padding: 8px;
 			}
-			.navTitle {
+			.aside-title {
 				font-size: 36px;
 				text-align: center;
-				margin-top: 4px;
+				margin: 4px 0px 20px;
 			}
-			nav div {
+			.rngmode-aside-title {
+				margin: 4px 0px 0px;
+			}
+			aside div {
 				font-size: 24px;
 				height: auto;
+			}
+			aside ul {
+				padding-left: 20px;
+				margin: 0.4em 0px;
+			}
+			.rules-added {
+				color: lightgreen;
+			}
+			.rules-removed {
+				color: #626263;
+				text-decoration: line-through;
+			}
+			#bestof-select {
+				display: none;
+			}
+			.rngmode-container {
+				display: none;
+			}
+			#debugarea {
+				display: none;
+				padding: 10px;
+				text-align: center;
+			}
+			#debugarea-settings {
+				display: grid;
+				gap: 0px;
+				grid-template-columns: 50% 50%;
+				font-family: monospace;
+			}
+			#banlist {
+				display: none;
+				flex-wrap: wrap;
+				flex-direction: row;
+				justify-content: center;
+			}
+			#banlist div {
+				width: 170px;
+				border: 1px solid #EDEDF4;
+				padding: 4px;
+			}
+			#banlist button {
+				font-family: monospace;
+				font-weight: bold;
+			}
+			.banlist-unbanned {
+				color: lightgreen;
+				font-weight: bold;
+			}
+			.banlist-banned {
+				color: tomato;
+				font-weight: bold;
+			}
+			.bestof-5 {
+				display: none;
+			}
+			.rngmode-title {
+				color: #D587FF;
+			}
+			#rulesinfo-rng0, #rulesinfo-rng1, #rulesinfo-rng2, #rulesinfo-rng3, #rollinfo-rng0, #rollinfo-rng1, #rollinfo-rng2, #rollinfo-rng3 {
+				border-bottom: 3px solid black;
 			}
 		</style>
 	</head>
@@ -107,36 +202,208 @@
 					<h1>READY OR NOT, GAMBLE! SPINNER</h1>
 				</div>
 			</header>
-			<div class="contentGrid" style="background-color: #3A5E33">
-				<nav>
-					<h5 class="navTitle">Game Rules</h5>
+			<div class="contentGrid" style="background-color: #3A5E33; border-bottom: 0px solid #EDEDF4">
+				<aside>
+					<h5 class="aside-title" style="margin-bottom: 6px">Game Rules</h5>
+					<h6 class="subtitle">To see general tournament rules, head to the <a href="Ready_or_Not,_GAMBLE!_2.html">tournament page</a>.</h6>
 					<div id="rulesInfo"></div>
-				</nav>
+					<!-- RNG Mode stuffs -->
+					<div class="rngmode-container">
+						<h5 id="rngmode-gametitle0" class="rngmode-aside-title">Game 1:</h5>
+						<div id="rulesinfo-rng0"></div>
+						<h5 id="rngmode-gametitle1" class="rngmode-aside-title">Game 2:</h5>
+						<div id="rulesinfo-rng1"></div>
+						<h5 id="rngmode-gametitle2" class="rngmode-aside-title">Game 3:</h5>
+						<div id="rulesinfo-rng2"></div>
+						<h5 id="rngmode-gametitle3" class="rngmode-aside-title bestof-5">Game 4:</h5>
+						<div id="rulesinfo-rng3"></div>
+						<h5 id="rngmode-gametitle4" class="rngmode-aside-title bestof-5">Game 5:</h5>
+						<div id="rulesinfo-rng4"></div>
+					</div>
+				</aside>
 				<main>
 					<div class="logoContainer" style="width: 350px; margin: auto">
 						<img src="../img/tourney/logos/rng1.png" style="width: 350px">
 					</div>
 					<h3>GAME</h3>
-					<div class="spinnerArea" id="spinner1">READY OR NOT,</div>
-					<h3>CONDITION</h3>
-					<div class="spinnerArea" id="spinner2">GAMBLE!!!!!</div>
-					<div style="width: fit-content; margin: auto">
-						<button id="button1" class="spinButton" onclick="spinToWin(1)">SPIN!</button>
-						<button id="button2" class="spinButton" onclick="spinToWin(2)">SPIN!</button>
+					<div class="spinnerArea">
+						<div id="spinner1"></div>
 					</div>
-					<div id="spinResults">
+					<h3>CONDITION</h3>
+					<div class="spinnerArea">
+						<div id="spinner2"></div>
+					</div>
+					<div style="width: fit-content; margin: auto">
+						<button id="button1" class="spinButton" onclick="spinToWin()">SPIN!</button>
+					</div>
+					<div id="rngmode">
+						<span>RNG MODE IS ACTIVE!</span>
+					</div>
+					<!--div id="spinResults">
 						<div class="resultInfoBox">
 							<p class="rolled">You rolled:</p>
 							<h1 id="rollInfo">GAME!!</h1>
 							<p id="conditionDesc"></p>
 							<button class="spinButton" onclick="display(true)">Close</button>
 						</div>
-					</div>
+					</div-->
 				</main>
-				<nav>
-					<h5 class="navTitle">Roll Info</h5>
+				<aside>
+					<h5 class="aside-title">Roll Info</h5>
 					<div id="rollInfo"></div>
-				</nav>
+					<div class="rngmode-container">
+						<h5 id="rngmode-condition0" class="rngmode-aside-title">Condition 1:</h5>
+						<div id="rollinfo-rng0"></div>
+						<h5 id="rngmode-condition1" class="rngmode-aside-title">Condition 2:</h5>
+						<div id="rollinfo-rng1"></div>
+						<h5 id="rngmode-condition2" class="rngmode-aside-title">Condition 3:</h5>
+						<div id="rollinfo-rng2"></div>
+						<h5 id="rngmode-condition3" class="rngmode-aside-title bestof-5">Condition 4:</h5>
+						<div id="rollinfo-rng3"></div>
+						<h5 id="rngmode-condition4" class="rngmode-aside-title bestof-5">Condition 5:</h5>
+						<div id="rollinfo-rng4"></div>
+					</div>
+					<div id="bestof-select" style="text-align: center">
+						<p style="font-weight: bold; margin-bottom: 0px">Select best of:</p>
+						<div>
+							<button onclick="setupRNG(3)" style="font-size: 1em">Best of 3</button>
+							<button onclick="setupRNG(5)" style="font-size: 1em">Best of 5</button>
+						</div>
+					</div>
+				</aside>
+			</div>
+			<div id="debugarea">
+				<div id="debugarea-settings">
+					<div>
+						<button id="banlist-toggle" onclick="debugMenu('toggleBanlist')" style="font-weight: bold; font-size: 1.2em; margin: 0px 10px 10px">Show banlist</button>
+						<div id="banlist">
+							<div>
+								AUAU: <span id="banliststatus-auau">Available</span>
+								<br><button id="banlisttoggle-auau" onclick="debugMenu('addRemove', 'auau')">ADD/REMOVE</button>
+							</div>
+							<div>
+								AH3X: <span id="banliststatus-ah3x">Available</span>
+								<br><button id="banlisttoggle-ah3x" onclick="debugMenu('addRemove', 'ah3x')">ADD/REMOVE</button>
+							</div>
+							<div>
+								BBCF: <span id="banliststatus-bbcf">Available</span>
+								<br><button id="banlisttoggle-bbcf" onclick="debugMenu('addRemove', 'bbcf')">ADD/REMOVE</button>
+							</div>
+							<div>
+								BBTAG: <span id="banliststatus-bbtag">Available</span>
+								<br><button id="banlisttoggle-bbtag" onclick="debugMenu('addRemove', 'bbtag')">ADD/REMOVE</button>
+							</div>
+							<div>
+								DNFD: <span id="banliststatus-dnfd">Available</span>
+								<br><button id="banlisttoggle-dnfd" onclick="debugMenu('addRemove', 'dnfd')">ADD/REMOVE</button>
+							</div>
+							<div>
+								DBFZ: <span id="banliststatus-dbfz">Available</span>
+								<br><button id="banlisttoggle-dbfz" onclick="debugMenu('addRemove', 'dbfz')">ADD/REMOVE</button>
+							</div>
+							<div>
+								EL2: <span id="banliststatus-el2">Available</span>
+								<br><button id="banlisttoggle-el2" onclick="debugMenu('addRemove', 'el2')">ADD/REMOVE</button>
+							</div>
+							<div>
+								FM: <span id="banliststatus-fm">Available</span>
+								<br><button id="banlisttoggle-fm" onclick="debugMenu('addRemove', 'fm')">ADD/REMOVE</button>
+							</div>
+							<div>
+								GBVSR: <span id="banliststatus-gbvsr">Available</span>
+								<br><button id="banlisttoggle-gbvsr" onclick="debugMenu('addRemove', 'gbvsr')">ADD/REMOVE</button>
+							</div>
+							<div>
+								GGST: <span id="banliststatus-ggst">Available</span>
+								<br><button id="banlisttoggle-ggst" onclick="debugMenu('addRemove', 'ggst')">ADD/REMOVE</button>
+							</div>
+							<div>
+								GGXRD: <span id="banliststatus-ggxrd">Available</span>
+								<br><button id="banlisttoggle-ggxrd" onclick="debugMenu('addRemove', 'ggxrd')">ADD/REMOVE</button>
+							</div>
+							<div>
+								GGACR: <span id="banliststatus-ggacr">Available</span>
+								<br><button id="banlisttoggle-ggacr" onclick="debugMenu('addRemove', 'ggacr')">ADD/REMOVE</button>
+							</div>
+							<div>
+								ISD: <span id="banliststatus-isd">Available</span>
+								<br><button id="banlisttoggle-isd" onclick="debugMenu('addRemove', 'isd')">ADD/REMOVE</button>
+							</div>
+							<div>
+								KF2: <span id="banliststatus-kf2">Available</span>
+								<br><button id="banlisttoggle-kf2" onclick="debugMenu('addRemove', 'kf2')">ADD/REMOVE</button>
+							</div>
+							<div>
+								MBTL: <span id="banliststatus-mbtl">Available</span>
+								<br><button id="banlisttoggle-mbtl" onclick="debugMenu('addRemove', 'mbtl')">ADD/REMOVE</button>
+							</div>
+							<div>
+								MVS: <span id="banliststatus-mvs">Available</span>
+								<br><button id="banlisttoggle-mvs" onclick="debugMenu('addRemove', 'mvs')">ADD/REMOVE</button>
+							</div>
+							<div>
+								P4AU: <span id="banliststatus-p4au">Available</span>
+								<br><button id="banlisttoggle-p4au" onclick="debugMenu('addRemove', 'p4au')">ADD/REMOVE</button>
+							</div>
+							<div>
+								PTDX: <span id="banliststatus-ptdx">Available</span>
+								<br><button id="banlisttoggle-ptdx" onclick="debugMenu('addRemove', 'ptdx')">ADD/REMOVE</button>
+							</div>
+							<div>
+								ROA: <span id="banliststatus-roa">Available</span>
+								<br><button id="banlisttoggle-roa" onclick="debugMenu('addRemove', 'roa')">ADD/REMOVE</button>
+							</div>
+							<div>
+								SG: <span id="banliststatus-sg">Available</span>
+								<br><button id="banlisttoggle-sg" onclick="debugMenu('addRemove', 'sg')">ADD/REMOVE</button>
+							</div>
+							<div>
+								SF6: <span id="banliststatus-sf6">Available</span>
+								<br><button id="banlisttoggle-sf6" onclick="debugMenu('addRemove', 'sf6')">ADD/REMOVE</button>
+							</div>
+							<div>
+								SSBC: <span id="banliststatus-ssbc">Available</span>
+								<br><button id="banlisttoggle-ssbc" onclick="debugMenu('addRemove', 'ssbc')">ADD/REMOVE</button>
+							</div>
+							<div>
+								SSBU: <span id="banliststatus-ssbu">Available</span>
+								<br><button id="banlisttoggle-ssbu" onclick="debugMenu('addRemove', 'ssbu')">ADD/REMOVE</button>
+							</div>
+							<div>
+								SSF2: <span id="banliststatus-ssf2">Available</span>
+								<br><button id="banlisttoggle-ssf2" onclick="debugMenu('addRemove', 'ssf2')">ADD/REMOVE</button>
+							</div>
+							<div>
+								T8: <span id="banliststatus-t8">Available</span>
+								<br><button id="banlisttoggle-t8" onclick="debugMenu('addRemove', 't8')">ADD/REMOVE</button>
+							</div>
+							<div>
+								SOKU: <span id="banliststatus-soku">Available</span>
+								<br><button id="banlisttoggle-soku" onclick="debugMenu('addRemove', 'soku')">ADD/REMOVE</button>
+							</div>
+							<div>
+								AOCF: <span id="banliststatus-aocf">Available</span>
+								<br><button id="banlisttoggle-aocf" onclick="debugMenu('addRemove', 'aocf')">ADD/REMOVE</button>
+							</div>
+							<div>
+								UFDK2: <span id="banliststatus-ufdk2">Available</span>
+								<br><button id="banlisttoggle-ufdk2" onclick="debugMenu('addRemove', 'ufdk2')">ADD/REMOVE</button>
+							</div>
+							<div>
+								UNI2: <span id="banliststatus-uni2">Available</span>
+								<br><button id="banlisttoggle-uni2" onclick="debugMenu('addRemove', 'uni2')">ADD/REMOVE</button>
+							</div>
+							<div>
+								RNG: <span id="banliststatus-rng">Available</span>
+								<br><button id="banlisttoggle-rng" onclick="debugMenu('addRemove', 'rng')">ADD/REMOVE</button>
+							</div>
+						</div>
+					</div>
+					<div>
+						<button onclick="debugMenu('rerollCondition')" style="font-weight: bold; font-size: 1.2em; margin: 0px 10px 10px">Reroll condition</button>
+						<br><button onclick="setupRNG()" style="font-weight: bold; font-size: 1.2em; margin: 0px 10px 10px">Toggle RNG Mode</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>

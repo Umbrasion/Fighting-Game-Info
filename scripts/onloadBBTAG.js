@@ -1,249 +1,355 @@
-var characterList = document.getElementsByClassName("chrSelection");
+var characterList = document.getElementsByClassName("chrSelection")[0];
 
-characterList[0].innerHTML = `
-<!--
-	BlazBlue Characters
--->
-<!-- Ragna the Bloodedge -->
-<a href="ragnaTheBloodedge.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall ragnaSel chrSelBlazBlue"><div><span>Ragna the Bloodedge</span></div></div>
-</a>
-<!-- Jin Kisaragi -->
-<a href="jinKisaragi.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall jinSel chrSelBlazBlue"><div><span>Jin Kisaragi</span></div></div>
-</a>
-<!-- Noel Vermillion -->
-<a href="noelVermillion.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall noelSel chrSelBlazBlue"><div><span>Noel Vermillion</span></div></div>
-</a>
-<!-- Rachel Alucard -->
-<a href="rachelAlucard.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall rachelSel chrSelBlazBlue"><div><span>Rachel Alucard</span></div></div>
-</a>
-<!-- Iron Tager -->
-<a href="ironTager.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall tagerSel chrSelBlazBlue"><div><span>Iron Tager</span></div></div>
-</a>
-<!-- Hakumen -->
-<a href="hakumen.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall hakumenSel chrSelBlazBlue"><div><span>Hakumen</span></div></div>
-</a>
-<!-- ν-No.13- -->
-<a href="nu13.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall nuSel chrSelBlazBlue"><div><span>ν-No.13-</span></div></div>
-</a>
-<!-- Hazama -->
-<a href="hazama.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall hazamaSel chrSelBlazBlue"><div><span>Hazama</span></div></div>
-</a>
-<!-- Makoto Nanaya -->
-<a href="makotoNanaya.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall makotoSel chrSelBlazBlue"><div><span>Makoto Nanaya</span></div></div>
-</a>
-<!-- Platinum the Trinity -->
-<a href="platinumTheTrinity.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall platinumSel chrSelBlazBlue"><div><span>Platinum the Trinity</span></div></div>
-</a>
-<!-- Izayoi -->
-<a href="izayoi.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall izayoiSel chrSelBlazBlue"><div><span>Izayoi</span></div></div>
-</a>
-<!-- Azrael -->
-<a href="azrael.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall azraelSel chrSelBlazBlue"><div><span>Azrael</span></div></div>
-</a>
-<!-- Celica A. Mercury -->
-<a href="celicaAMercury.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall celicaSel chrSelBlazBlue"><div><span>Celica A. Mercury</span></div></div>
-</a>
-<!-- Nine the Phantom -->
-<a href="nineThePhantom.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall nineSel chrSelBlazBlue"><div><span>Nine the Phantom</span></div></div>
-</a>
-<!-- Naoto Kurogane -->
-<a href="naotoKurogane.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall naotoSel chrSelBlazBlue"><div><span>Naoto Kurogane</span></div></div>
-</a>
-<!-- Susano'o -->
-<a href="susanoo.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall susanooSel chrSelBlazBlue"><div><span>Susano'o</span></div></div>
-</a>
-<!-- Es -->
-<a href="es.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall esSel chrSelBlazBlue"><div><span>Es</span></div></div>
-</a>
-<!-- Mai Natsume -->
-<a href="maiNatsume.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall maiSel chrSelBlazBlue"><div><span>Mai Natsume</span></div></div>
-</a>
-<!-- Jubei -->
-<a href="jubei.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall jubeiSel chrSelBlazBlue"><div><span>Jubei</span></div></div>
-</a>
-`;
+characterList.innerHTML = `
+<div class="selectbox-container">
+	<div class="logospace" style="background-image: url('../../img/characterSelect/bbtag/BB_border.webp')">
+		<img src="../../img/logos/small/BBCF_logo_small.webp" style="margin-top: 8px">
+	</div>
+	<a href="Ragna_the_Bloodedge.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Ragna_the_Bloodedge_icon.webp">
+		</div>
+	</a>
+	<a href="Jin_Kisaragi.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Jin_Kisaragi_icon.webp">
+		</div>
+	</a>
+	<a href="Noel_Vermillion.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Noel_Vermillion_icon.webp">
+		</div>
+	</a>
+	<a href="Rachel_Alucard.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Rachel_Alucard_icon.webp">
+		</div>
+	</a>
+	<a href="Iron_Tager.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Iron_Tager_icon.webp">
+		</div>
+	</a>
+	<a href="Hakumen.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Hakumen_icon.webp">
+		</div>
+	</a>
+	<a href="Nu-13.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Nu-13_icon.webp">
+		</div>
+	</a>
+	<a href="Hazama.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Hazama_icon.webp">
+		</div>
+	</a>
+	<a href="Makoto_Nanaya.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Makoto_Nanaya_icon.webp">
+		</div>
+	</a>
+	<a href="Platinum_the_Trinity.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Platinum_the_Trinity_icon.webp">
+		</div>
+	</a>
+	<a href="Izayoi.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Izayoi_icon.webp">
+		</div>
+	</a>
+	<a href="Azrael.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Azrael_icon.webp">
+		</div>
+	</a>
+	<a href="Celica_A._Mercury.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Celica_A._Mercury_icon.webp">
+		</div>
+	</a>
+	<a href="Nine_the_Phantom.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Nine_the_Phantom_icon.webp">
+		</div>
+	</a>
+	<a href="Naoto_Kurogane.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Naoto_Kurogane_icon.webp">
+		</div>
+	</a>
+	<a href="Susano'o.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Susano'o_icon.webp">
+		</div>
+	</a>
+	<a href="Es.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Es_icon.webp">
+		</div>
+	</a>
+	<a href="Mai_Natsume.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Mai_Natsume_icon.webp">
+		</div>
+	</a>
+	<a href="Jubei.html">
+		<div class="selectbox selectbox-character chrSelBlazBlue">
+			<img src="../../img/characterSelect/bbtag/Jubei_icon.webp">
+		</div>
+	</a>
+</div>
+<div class="selectbox-container">
+	<div class="logospace" style="background-image: url('../../img/characterSelect/bbtag/P4A_border.webp')">
+		<img src="../../img/logos/small/bbtag/P4A_logo_bbtag_select.webp" style="width: 180px; margin-top: 8px">
+	</div>
+	<a href="Yu_Narukami.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Yu_Narukami_icon.webp">
+		</div>
+	</a>
+	<a href="Yosuke_Hanamura.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Yosuke_Hanamura_icon.webp">
+		</div>
+	</a>
+	<a href="Chie_Satonaka.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Chie_Satonaka_icon.webp">
+		</div>
+	</a>
+	<a href="Yukiko_Amagi.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Yukiko_Amagi_icon.webp">
+		</div>
+	</a>
+	<a href="Kanji_Tatsumi.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Kanji_Tatsumi_icon.webp">
+		</div>
+	</a>
+	<a href="Teddie.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Teddie_icon.webp">
+		</div>
+	</a>
+	<a href="Naoto_Shirogane.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Naoto_Shirogane_icon.webp">
+		</div>
+	</a>
+	<a href="Mitsuru_Kirijo.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Mitsuru_Kirijo_icon.webp">
+		</div>
+	</a>
+	<a href="Akihiko_Sanada.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Akihiko_Sanada_icon.webp">
+		</div>
+	</a>
+	<a href="Aegis.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Aegis_icon.webp">
+		</div>
+	</a>
+	<a href="Elizabeth.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Elizabeth_icon.webp">
+		</div>
+	</a>
+	<a href="Labrys.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Labrys_icon.webp">
+		</div>
+	</a>
+	<a href="Tohru_Adachi.html">
+		<div class="selectbox selectbox-character chrSelPersona">
+			<img src="../../img/characterSelect/bbtag/Tohru_Adachi_icon.webp">
+		</div>
+	</a>
+</div>
+<div class="selectbox-container">
+	<div class="logospace" style="background-image: url('../../img/characterSelect/bbtag/UNI_border.webp')">
+		<img src="../../img/logos/small/bbtag/UNIST_logo_bbtag_select.webp" style="width: 180px; margin-top: 40px">
+	</div>
+	<a href="Hyde.html">
+		<div class="selectbox selectbox-character chrSelUnderNight">
+			<img src="../../img/characterSelect/bbtag/Hyde_icon.webp">
+		</div>
+	</a>
+	<a href="Linne.html">
+		<div class="selectbox selectbox-character chrSelUnderNight">
+			<img src="../../img/characterSelect/bbtag/Linne_icon.webp">
+		</div>
+	</a>
+	<a href="Waldstein.html">
+		<div class="selectbox selectbox-character chrSelUnderNight">
+			<img src="../../img/characterSelect/bbtag/Waldstein_icon.webp">
+		</div>
+	</a>
+	<a href="Carmine.html">
+		<div class="selectbox selectbox-character chrSelUnderNight">
+			<img src="../../img/characterSelect/bbtag/Carmine_icon.webp">
+		</div>
+	</a>
+	<a href="Orie.html">
+		<div class="selectbox selectbox-character chrSelUnderNight">
+			<img src="../../img/characterSelect/bbtag/Orie_icon.webp">
+		</div>
+	</a>
+	<a href="Gordeau.html">
+		<div class="selectbox selectbox-character chrSelUnderNight">
+			<img src="../../img/characterSelect/bbtag/Gordeau_icon.webp">
+		</div>
+	</a>
+	<a href="Merkava.html">
+		<div class="selectbox selectbox-character chrSelUnderNight">
+			<img src="../../img/characterSelect/bbtag/Merkava_icon.webp">
+		</div>
+	</a>
+	<a href="Vatista.html">
+		<div class="selectbox selectbox-character chrSelUnderNight">
+			<img src="../../img/characterSelect/bbtag/Vatista_icon.webp">
+		</div>
+	</a>
+	<a href="Seth.html">
+		<div class="selectbox selectbox-character chrSelUnderNight">
+			<img src="../../img/characterSelect/bbtag/Seth_icon.webp">
+		</div>
+	</a>
+	<a href="Yuzuriha.html">
+		<div class="selectbox selectbox-character chrSelUnderNight">
+			<img src="../../img/characterSelect/bbtag/Yuzuriha_icon.webp">
+		</div>
+	</a>
+	<a href="Hilda.html">
+		<div class="selectbox selectbox-character chrSelUnderNight">
+			<img src="../../img/characterSelect/bbtag/Hilda_icon.webp">
+		</div>
+	</a>
+	<a href="Mika.html">
+		<div class="selectbox selectbox-character chrSelUnderNight">
+			<img src="../../img/characterSelect/bbtag/Mika_icon.webp">
+		</div>
+	</a>
+</div>
+<div class="selectbox-container">
+	<div class="logospace" style="background-image: url('../../img/characterSelect/bbtag/RWBY_border.webp')">
+		<img src="../../img/logos/small/bbtag/RWBY_logo_bbtag_select.webp" style="width: 170px; padding-left: 8px; margin-top: 50px">
+	</div>
+	<a href="Ruby_Rose.html">
+		<div class="selectbox selectbox-character chrSelRWBY">
+			<img src="../../img/characterSelect/bbtag/Ruby_Rose_icon.webp">
+		</div>
+	</a>
+	<a href="Weiss_Schnee.html">
+		<div class="selectbox selectbox-character chrSelRWBY">
+			<img src="../../img/characterSelect/bbtag/Weiss_Schnee_icon.webp">
+		</div>
+	</a>
+	<a href="Blake_Belladonna.html">
+		<div class="selectbox selectbox-character chrSelRWBY">
+			<img src="../../img/characterSelect/bbtag/Blake_Belladonna_icon.webp">
+		</div>
+	</a>
+	<a href="Yang_Xiao_Long.html">
+		<div class="selectbox selectbox-character chrSelRWBY">
+			<img src="../../img/characterSelect/bbtag/Yang_Xiao_Long_icon.webp">
+		</div>
+	</a>
+	<a href="Neo_Politan.html">
+		<div class="selectbox selectbox-character chrSelRWBY">
+			<img src="../../img/characterSelect/bbtag/Neo_Politan_icon.webp">
+		</div>
+	</a>
+</div>
+<div class="selectbox-container">
+	<div id="selectbox-extra" class="logospace" style="background-image: url('../../img/characterSelect/bbtag/AH3_border.webp')">
+		<img id="logo-extra" src="../../img/logos/small/bbtag/AH3LMSS_logo_bbtag_select.webp" style="width: 198px; margin-top: 18px">
+	</div>
+	<a href="Heart_Aino.html">
+		<div class="selectbox selectbox-character chrSelArcanaHeart">
+			<img src="../../img/characterSelect/bbtag/Heart_Aino_icon.webp">
+		</div>
+	</a>
+	<a href="Yumi.html">
+		<div class="selectbox selectbox-character chrSelSenranKagura">
+			<img src="../../img/characterSelect/bbtag/Yumi_icon.webp">
+		</div>
+	</a>
+	<a href="Akatsuki.html">
+		<div class="selectbox selectbox-character chrSelAkatsukiBlitzkampf">
+			<img src="../../img/characterSelect/bbtag/Akatsuki_icon.webp">
+		</div>
+	</a>
+	<a href="Blitztank.html">
+		<div class="selectbox selectbox-character chrSelAkatsukiBlitzkampf">
+			<img src="../../img/characterSelect/bbtag/Blitztank_icon.webp">
+		</div>
+	</a>
+</div>
+<div class="selectbox-container">
+	<div id="selectbox-extra" class="logospace" style="background-image: url('../../img/characterSelect/bbtag/ETC_border.webp')">
+		<img id="logo-extra" src="../../img/logos/small/bbtag/ETC_logo_bbtag_select.webp" style="width: 170px; margin-top: 35px">
+	</div>
+	<a href="Random_Character.html">
+		<div class="selectbox selectbox-character chrSelRandom">
+			<img src="../../img/characterSelect/bbtag/Random_icon.webp">
+		</div>
+	</a>
+</div>
+`
 
-characterList[1].innerHTML = `
-<!--
-	Persona Characters
--->
-<!-- Yu Narukami -->
-<a href="yuNarukami.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall yuSel chrSelPersona"><div><span>Yu Narukami</span></div></div>
-</a>
-<!-- Yosuke Hanamura -->
-<a href="yosukeHanamura.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall yosukeSel chrSelPersona"><div><span>Yosuke Hanamura</span></div></div>
-</a>
-<!-- Chie Satonaka -->
-<a href="chieSatonaka.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall chieSel chrSelPersona"><div><span>Chie Satonaka</span></div></div>
-</a>
-<!-- Yukiko Amagi -->
-<a href="yukikoAmagi.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall yukikoSel chrSelPersona"><div><span>Yukiko Amagi</span></div></div>
-</a>
-<!-- Kanji Tatsumi -->
-<a href="kanjiTatsumi.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall kanjiSel chrSelPersona"><div><span>Kanji Tatsumi</span></div></div>
-</a>
-<!-- Teddie -->
-<a href="teddie.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall teddieSel chrSelPersona"><div><span>Teddie</span></div></div>
-</a>
-<!-- Naoto Shirogane -->
-<a href="naotoShirogane.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall naotoShSel chrSelPersona"><div><span>Naoto Shirogane</span></div></div>
-</a>
-<!-- Mitsuru Kirijo -->
-<a href="mitsuru.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall mitsuruSel chrSelPersona"><div><span>Mitsuru Kirijo</span></div></div>
-</a>
-<!-- Akihiko Sanada -->
-<a href="akihikoSanada.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall akihikoSel chrSelPersona"><div><span>Akihiko Sanada</span></div></div>
-</a>
-<!-- Aegis -->
-<a href="aegis.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall aegisSel chrSelPersona"><div><span>Aegis</span></div></div>
-</a>
-<!-- Elizabeth -->
-<a href="elizabeth.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall elizaSel chrSelPersona"><div><span>Elizabeth</span></div></div>
-</a>
-<!-- Labrys -->
-<a href="labrys.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall labrysSel chrSelPersona"><div><span>Labrys</span></div></div>
-</a>
-<!-- Tohru Adachi -->
-<a href="tohruAdachi.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall adachiSel chrSelPersona"><div><span>Tohru Adachi</span></div></div>
-</a>
-`;
+const borderExtraSeries = document.getElementById("selectbox-extra");
+const logoExtraSeries = document.getElementById("logo-extra");
 
-characterList[2].innerHTML = `
-<!--
-	Under Night Characters
--->
-<!-- Hyde -->
-<a href="hyde.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall hydeSel chrSelUnderNight"><div><span>Hyde</span></div></div>
-</a>
-<!-- Linne -->
-<a href="linne.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall linneSel chrSelUnderNight"><div><span>Linne</span></div></div>
-</a>
-<!-- Waldstein -->
-<a href="waldstein.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall waldsteinSel chrSelUnderNight"><div><span>Waldstein</span></div></div>
-</a>
-<!-- Carmine -->
-<a href="carmine.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall carmineSel chrSelUnderNight"><div><span>Carmine</span></div></div>
-</a>
-<!-- Orie -->
-<a href="orie.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall orieSel chrSelUnderNight"><div><span>Orie</span></div></div>
-</a>
-<!-- Gordeau -->
-<a href="gordeau.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall gordeauSel chrSelUnderNight"><div><span>Gordeau</span></div></div>
-</a>
-<!-- Merkava -->
-<a href="merkava.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall merkavaSel chrSelUnderNight"><div><span>Merkava</span></div></div>
-</a>
-<!-- Vatista -->
-<a href="vatista.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall vatistaSel chrSelUnderNight"><div><span>Vatista</span></div></div>
-</a>
-<!-- Seth -->
-<a href="seth.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall sethSel chrSelUnderNight"><div><span>Seth</span></div></div>
-</a>
-<!-- Yuzuriha -->
-<a href="yuzuriha.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall yuzurihaSel chrSelUnderNight"><div><span>Yuzuriha</span></div></div>
-</a>
-<!-- Hilda -->
-<a href="hilda.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall hildaSel chrSelUnderNight"><div><span>Hilda</span></div></div>
-</a>
-<!-- Mika -->
-<a href="mika.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall mikaSel chrSelUnderNight"><div><span>Mika</span></div></div>
-</a>
-`;
+// Heart Aino
 
-characterList[3].innerHTML = `
-<!--
-	RWBY Characters
--->
-<!-- Ruby Rose -->
-<a href="rubyRose.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall rubySel chrSelRWBY"><div><span>Ruby Rose</span></div></div>
-</a>
-<!-- Weiss Schnee -->
-<a href="weissSchnee.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall weissSel chrSelRWBY"><div><span>Weiss Schnee</span></div></div>
-</a>
-<!-- Blake Belladonna -->
-<a href="blakeBelladonna.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall blakeSel chrSelRWBY"><div><span>Blake Belladonna</span></div></div>
-</a>
-<!-- Yang Xiao Long -->
-<a href="yangXiaoLong.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall yangSel chrSelRWBY"><div><span>Yang Xiao Long</span></div></div>
-</a>
-<!-- Neo Politan -->
-<a href="neoPolitan.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall neoSel chrSelRWBY"><div><span>Neo Politan</span></div></div>
-</a>
-`;
+const selAino = document.getElementsByClassName("chrSelArcanaHeart")[0];
+selAino.addEventListener("mouseover",
+	(event) => {
+		borderExtraSeries.style.backgroundImage = "url('../../img/characterSelect/bbtag/AH3_border.webp')";
+		logoExtraSeries.src = "../../img/logos/small/bbtag/AH3LMSS_logo_bbtag_select.webp";
+		logoExtraSeries.style.width = "198px";
+		logoExtraSeries.style.marginTop = "18px";
+	}
+);
 
-characterList[4].innerHTML = `
-<!--
-	Arcana Heart Characters
--->
-<!-- Heart Aino -->
-<a href="heartAino.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall ainoSel chrSelArcanaHeart"><div><span>Heart Aino</span></div></div>
-</a>
-<!--
-	Senran Kagura Characters
--->
-<!-- Yumi -->
-<a href="yumi.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall yumiSel chrSelSenranKagura"><div><span>Yumi</span></div></div>
-</a>
-<!--
-	Akatsuki Blitzkampf Characters
--->
-<!-- Akatsuki -->
-<a href="akatsuki.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall akatsukiSel chrSelAkatsukiBlitzkampf"><div><span>Akatsuki</span></div></div>
-</a>
-<!-- Blitztank -->
-<a href="blitztank.html" style="text-decoration: none">
-	<div class="chrPreview chrPreviewSmall tankSel chrSelAkatsukiBlitzkampf"><div><span>Blitztank</span></div></div>
-</a>
-`;
+// Yumi
+
+const selYumi = document.getElementsByClassName("chrSelSenranKagura")[0];
+selYumi.addEventListener("mouseover",
+	(event) => {
+		borderExtraSeries.style.backgroundImage = "url('../../img/characterSelect/bbtag/SK_border.webp')";
+		logoExtraSeries.src = "../../img/logos/small/bbtag/SKEV_logo_bbtag_select.webp";
+		logoExtraSeries.style.width = "198px";
+		logoExtraSeries.style.marginTop = "18px";
+	}
+);
+
+// Akatsuki
+
+const selAkatsuki = document.getElementsByClassName("chrSelAkatsukiBlitzkampf")[0];
+selAkatsuki.addEventListener("mouseover",
+	(event) => {
+		borderExtraSeries.style.backgroundImage = "url('../../img/characterSelect/bbtag/AKBK_border.webp')";
+		logoExtraSeries.src = "../../img/logos/small/bbtag/AKBK_logo_bbtag_select.webp";
+		logoExtraSeries.style.width = "190px";
+		logoExtraSeries.style.marginTop = "50px";
+	}
+);
+
+// Blitztank
+
+const selBlitztank = document.getElementsByClassName("chrSelAkatsukiBlitzkampf")[1];
+selBlitztank.addEventListener("mouseover",
+	(event) => {
+		borderExtraSeries.style.backgroundImage = "url('../../img/characterSelect/bbtag/AKBK_border.webp')";
+		logoExtraSeries.src = "../../img/logos/small/bbtag/AKBK_logo_bbtag_select.webp";
+		logoExtraSeries.style.width = "190px";
+		logoExtraSeries.style.marginTop = "50px";
+	}
+);

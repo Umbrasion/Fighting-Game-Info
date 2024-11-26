@@ -1,0 +1,82 @@
+body {
+	background-image: url("../../img/granblueFantasyVersusRising/background.png");
+}
+
+.attackL, .attackM, .attackH, .attackU, .attackSkill, .attackBlock, .attackThrow, .attackDash, .attackSkyboundArt, .attackSuperSkyboundArt, .resourceSBA, .resourceBraveryPoint {
+	font-weight: bold;
+}
+
+.attackL {
+	color: #F163CB;
+}
+
+.attackM {
+	color: #39E6A9;
+}
+
+.attackH {
+	color: #E73F39;
+}
+
+.attackU {
+	color: #3F8BE4;
+}
+
+.attackSkill {
+	color: #FFE57B;
+}
+
+.attackBlock {
+	color: #FFAE79;
+}
+
+.attackThrow {
+	color: #83EBF7;
+}
+
+.attackDash {
+	color: #CCFF7A;
+}
+
+.attackUltimateSkill {
+	color: #6B98E5;
+}
+
+.attackSkyboundArt {
+	color: #C45C71;
+}
+
+.attackSuperSkyboundArt {
+	color: #43BCCC;
+}
+
+.resourceSBA {
+	color: #EF7F01;
+}
+
+.resourceBraveryPoint {
+	color: #5BE8EF;
+}
+
+.resource2BSKL {
+	color: #ABA48E;
+}
+
+/* Character select */
+
+.chrSelection {
+	display: block;
+}
+
+.selectbox-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 9px 6px;
+	width: 694px;
+}
+
+.selectbox-character, .selectbox-character img, .selectbox-spacer {
+	width: 64px;
+	height: 184px;
+}

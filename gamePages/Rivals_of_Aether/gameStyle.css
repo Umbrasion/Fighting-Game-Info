@@ -1,0 +1,32 @@
+body {
+	background-image: url("../../img/rivalsOfAether/background.png");
+}
+
+.attack {
+	
+}
+
+/* Character select */
+
+.chrSelection {
+	display: block;
+}
+
+.selectbox-container, .selectbox-fullroster {
+	width: 956px;
+	height: 190px;
+}
+
+.selectbox-positioner {
+	pointer-events: none;
+	position: relative;
+	width: 0px;
+	height: 0px;
+}
+
+.selectbox-character img {
+	width: 136px;
+	height: 92px;
+	transition: transform 0.3s;
+	transform-origin: center;
+}

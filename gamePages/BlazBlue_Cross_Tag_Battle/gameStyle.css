@@ -1,0 +1,338 @@
+body {
+	background-image: url("../../img/blazBlueCrossTagBattle/background.png");
+}
+
+.chrBlazBlue {
+	color: #0083FF;
+}
+
+.chrPersona4Arena {
+	color: #FFF328;
+}
+
+.chrUnderNightInBirth {
+	color: #7B00FF;
+}
+
+.chrRWBY {
+	color: #E10000;
+}
+
+.chrArcanaHeart {
+	color: #FF3CFF;
+}
+
+.chrSenranKagura {
+	color: #9EEDFF;
+}
+
+.chrAkatsukiBlitzkampf {
+	color: #B58340;
+}
+
+.attackA {
+	color: #E664FF;
+}
+
+.attackB {
+	color: #00C83C;
+}
+
+.attackC {
+	color: #FF3200;
+}
+
+.attackD {
+	color: #0096FF;
+}
+
+.attackP {
+	color: #F5D200;
+}
+
+.attackExtraSkill {
+	color: #BEA601;
+}
+
+.attackDistortionSkill {
+	color: #E57900;
+}
+
+.attackAstralHeat {
+	color: #DE0101;
+}
+
+/* Character select */
+
+.chrSelection {
+	display: block;
+}
+
+.selectbox-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: left;
+	gap: 0px;
+}
+
+.selectbox {
+	
+}
+
+.selectbox-character {
+	height: 133px;
+	width: 99px;
+}
+
+.logospace {
+	width: 198px;
+	height: 133px;
+}
+
+.logospace img {
+	max-width: 198px;
+}
+
+.chrSelBlazBlue img {
+	border: solid 2px #1E32C1;
+}
+
+.chrSelPersona img {
+	border: solid 2px #AC9925;
+}
+
+.chrSelUnderNight img {
+	border: solid 2px #492581;
+}
+
+.chrSelRWBY img {
+	border: solid 2px #BF1F1F;
+}
+
+.chrSelArcanaHeart img {
+	border: solid 2px #FF3CFF;
+}
+
+.chrSelSenranKagura img {
+	border: solid 2px #14C5CE;
+}
+
+.chrSelAkatsukiBlitzkampf img {
+	border: solid 2px #2D2D2D;
+}
+
+.chrSelRandom img {
+	border: solid 2px #459218;
+}
+
+.ragnaSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/RagnaTheBloodedge.png");
+}
+
+.jinSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/JinKisaragi.png");
+}
+
+.noelSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/NoelVermillion.png");
+}
+
+.rachelSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/RachelAlucard.png");
+}
+
+.tagerSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/IronTager.png");
+}
+
+.hakumenSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Hakumen.png");
+}
+
+.nuSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Nu13.png");
+}
+
+.hazamaSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Hazama.png");
+}
+
+.makotoSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/MakotoNanaya.png");
+}
+
+.platinumSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/PlatinumTheTrinity.png");
+}
+
+.izayoiSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Izayoi.png");
+}
+
+.azraelSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Azrael.png");
+}
+
+.celicaSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/CelicaAyatsukiMercury.png");
+}
+
+.nineSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/NineThePhantom.png");
+}
+
+.naotoSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/NaotoKurogane.png");
+}
+
+.susanooSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Susanoo.png");
+}
+
+.esSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Es.png");
+}
+
+.maiSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/MaiNatsume.png");
+}
+
+.jubeiSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Jubei.png");
+}
+
+.yuSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/YuNarukami.png");
+}
+
+.yosukeSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/YosukeHanamura.png");
+}
+
+.chieSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/ChieSatonaka.png");
+}
+
+.yukikoSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/YukikoAmagi.png");
+}
+
+.kanjiSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/KanjiTatsumi.png");
+}
+
+.teddieSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Teddie.png");
+}
+
+.naotoShSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/NaotoShirogane.png");
+}
+
+.mitsuruSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/MitsuruKirijo.png");
+}
+
+.akihikoSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/AkihikoSanada.png");
+}
+
+.aegisSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Aegis.png");
+}
+
+.elizaSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Elizabeth.png");
+}
+
+.labrysSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Labrys.png");
+}
+
+.adachiSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/TohruAdachi.png");
+}
+
+.hydeSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Hyde.png");
+}
+
+.linneSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Linne.png");
+}
+
+.waldsteinSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Waldstein.png");
+}
+
+.carmineSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Carmine.png");
+}
+
+.orieSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Orie.png");
+}
+
+.gordeauSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Gordeau.png");
+}
+
+.merkavaSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Merkava.png");
+}
+
+.vatistaSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Vatista.png");
+}
+
+.sethSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Seth.png");
+}
+
+.yuzurihaSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Yuzuriha.png");
+}
+
+.hildaSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Hilda.png");
+}
+
+.mikaSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Mika.png");
+}
+
+.rubySel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/RubyRose.png");
+}
+
+.weissSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/WeissSchnee.png");
+}
+
+.blakeSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/BlakeBelladonna.png");
+}
+
+.yangSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/YangXiaoLong.png");
+}
+
+.neoSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/NeoPolitan.png");
+}
+
+.ainoSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/HeartAino.png");
+}
+
+.yumiSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Yumi.png");
+}
+
+.akatsukiSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Akatsuki.png");
+}
+
+.tankSel {
+	background-image: url("../../img/blazBlueCrossTagBattle/portraits/chrSelect/Blitztank.png");
+}

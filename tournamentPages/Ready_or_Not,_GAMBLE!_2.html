@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ready or Not, GAMBLE! | Amber's Fighting Game Info</title>
+		<link rel="stylesheet" href="../styles/main.css">
+		<script src="../scripts/main.js"></script>
+		<script>
+			window.onload = function() {
+				var tourneyOView = document.getElementById("overview-rng");
+				tourneyOView.innerHTML = `
+				<p class="boxTop boxBottom"><b>Ready or Not, GAMBLE!</b> is a tournament series where we take craziness to the extreme and let randomness take hold. Every match, the game is different and the way you play is different. The only thing you can prepare for is the unpredicatable!</p>
+				`;
+			}
+		</script>
+		<style>
+			body {
+				background-image: url("../img/tourney/background.png");
+				background-size: 100%;
+			}
+			.contentSegment ul {
+				padding-left: 1em;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="contentContainer">
+			<header>
+				<div class="pageLinks">
+					<a class="navButton" href="../index.html"><div>HOME</div></a>
+					<a class="navButton" href="../howToStart.html"><div>HOW TO START</div></a>
+					<a class="navButton" href="../gameList.html"><div>GAME LIST</div></a>
+					<a class="navButton" href="../tournaments.html"><div>TOURNAMENTS</div></a>
+				</div>
+				<div class="titlebar">
+					<img class="gameLogo" src="../img/tourney/logos/rng1.png">
+					<h1>Ready or Not, GAMBLE! 2</h1>
+				</div>
+			</header>
+			<div class="contentGrid">
+				<main>
+					<div id="overview-rng" class="contentSegment"></div>
+					<h1 id="overview"><span class="sectionCollapse"></span>Overview</h1>
+					<div class="contentSegment">
+						<p></p>
+					</div>
+					<h1 id="rules">Rules</h1>
+					<h2>Set Procedure</h2>
+					<div class="contentSegment">
+						<ul class="boxTop boxBottom">
+							<li>At the start of each set, a tournament organizer will run a random pull to determine the game the players will play. Each game has a set of rules tailored to the game and must be followed by the players (see <a>Game-Specific Rules</a> below for more details).</li>
+							<li>After pulling the game, the tournament organizer will then</li>
+							<li>Both players join the game together and pick their characters. They may choose to divulge </li>
+							<ul>
+								<li>Players may switch the character they are playing between rounds, regardless of if the player had lost/won the previous game.</li>
+								<li>If a disallowed character is selected, the game will be paused and the offending player must re-select their character.</li>
+							</ul>
+							<li>Stages are either selected from the legal stage list, picked at random, or are mutually decided by both players to play on, depending on the individual game's ruleset.</li>
+							<ul>
+								<li>If a disallowed stage is selected, the game will be paused and the stage will be re-selected.</li>
+							</ul>
+						</ul>
+					</div>
+				</main>
+				<nav>
+					<h5 class="navTitle">Page Navigation</h5>
+					<div>
+						<ul>
+							<li><a href="#overview">Overview</a></li>
+							<li><a href="#rules">Rules</a></li>
+							<ul>
+								<li><a href="#"></a></li>
+							</ul>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,8 @@
+MOVE GIF SETTINGS: 512x288 16:9 PAL (3rd Custom Option)
+Fade in/fade out: 12 frame duration
+Opponents always color 2 on dittos
+
+--Antinomy of Common Flowers--
+	Move GIF size - 138% (137.85%), centered
+	Background stage: Hakurei Shrine, day
+	Opponent: Marisa, default costume

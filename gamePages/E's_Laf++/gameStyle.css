@@ -1,0 +1,83 @@
+body {
+	background-image: url("../../img/esLaf2/background.png");
+}
+
+.attack {
+	
+}
+
+/* Character select */
+
+.chrSelection {
+	display: block;
+	font-size: 0px;
+}
+
+.selectbox-container {
+	margin: 20px;
+}
+
+.selectbox-row-container {
+	height: 80px;
+}
+
+.selectbox-container a {
+	display: inline-block;
+}
+
+.selectbox-character {
+	
+}
+
+.selectbox-character img {
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	width: 100px;
+	transform: rotate(-0.125turn);
+}
+
+.selectbox-spacer {
+	display: inline-block;
+	width: 60px;
+}
+
+a:hover .mainSel img {
+	content: url("../../img/characterSelect/el2/Main_icon_selected.webp");
+}
+
+a:hover .siscaSel img {
+	content: url("../../img/characterSelect/el2/Sisca_icon_selected.webp");
+}
+
+a:hover .qdoraSel img {
+	content: url("../../img/characterSelect/el2/Qdora_icon_selected.webp");
+}
+
+a:hover .taeSel img {
+	content: url("../../img/characterSelect/el2/Akamine_Tae_icon_selected.webp");
+}
+
+a:hover .tinaSel img {
+	content: url("../../img/characterSelect/el2/Tina_icon_selected.webp");
+}
+
+a:hover .cecilSel img {
+	content: url("../../img/characterSelect/el2/Cecil_icon_selected.webp");
+}
+
+a:hover .sTinaSel img {
+	content: url("../../img/characterSelect/el2/Saving_Tina_icon_selected.webp");
+}
+
+a:hover .alcottSel img {
+	content: url("../../img/characterSelect/el2/Alcott_icon_selected.webp");
+}
+
+a:hover .serenaSel img {
+	content: url("../../img/characterSelect/el2/Serena_icon_selected.webp");
+}
+
+a:hover .yagabiSel img {
+	content: url("../../img/characterSelect/el2/Yagabi_icon_selected.webp");
+}

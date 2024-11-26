@@ -1,136 +1,183 @@
 var characterList = document.getElementsByClassName("chrSelection")[0];
 
 characterList.innerHTML = `
-<!-- Gran -->
-<a href="gran.html" style="text-decoration: none">
-	<div class="chrPreview granSel"><div><span>Gran</span></div></div>
-</a>
-<!-- Djeeta -->
-<a href="djeeta.html" style="text-decoration: none">
-	<div class="chrPreview djeetaSel"><div><span>Djeeta</span></div></div>
-</a>
-<!-- Katalina -->
-<a href="katalina.html" style="text-decoration: none">
-	<div class="chrPreview katSel"><div><span>Katalina</span></div></div>
-</a>
-<!-- Charlotta -->
-<a href="charlotta.html" style="text-decoration: none">
-	<div class="chrPreview charlotSel"><div><span>Charlotta</span></div></div>
-</a>
-<!-- Lancelot -->
-<a href="lancelot.html" style="text-decoration: none">
-	<div class="chrPreview lanceSel"><div><span>Lancelot</span></div></div>
-</a>
-<!-- Percival -->
-<a href="percival.html" style="text-decoration: none">
-	<div class="chrPreview perciSel"><div><span>Percival</span></div></div>
-</a>
-<!-- Ladiva -->
-<a href="ladiva.html" style="text-decoration: none">
-	<div class="chrPreview ladivaSel"><div><span>Ladiva</span></div></div>
-</a>
-<!-- Metera -->
-<a href="metera.html" style="text-decoration: none">
-	<div class="chrPreview meteraSel"><div><span>Metera</span></div></div>
-</a>
-<!-- Lowain -->
-<a href="lowain.html" style="text-decoration: none">
-	<div class="chrPreview lowainSel"><div><span>Lowain</span></div></div>
-</a>
-<!-- Ferry -->
-<a href="ferry.html" style="text-decoration: none">
-	<div class="chrPreview ferrySel"><div><span>Ferry</span></div></div>
-</a>
-<!-- Zeta -->
-<a href="zeta.html" style="text-decoration: none">
-	<div class="chrPreview zetaSel"><div><span>Zeta</span></div></div>
-</a>
-<!-- Vaseraga -->
-<a href="vaseraga.html" style="text-decoration: none">
-	<div class="chrPreview vaseragaSel"><div><span>Vaseraga</span></div></div>
-</a>
-<!-- Narmaya -->
-<a href="narmaya.html" style="text-decoration: none">
-	<div class="chrPreview narmayaSel"><div><span>Narmaya</span></div></div>
-</a>
-<!-- Soriz -->
-<a href="soriz.html" style="text-decoration: none">
-	<div class="chrPreview sorizSel"><div><span>Soriz</span></div></div>
-</a>
-<!-- Zooey -->
-<a href="zooey.html" style="text-decoration: none">
-	<div class="chrPreview zooeySel"><div><span>Zooey</span></div></div>
-</a>
-<!-- Cagliostro -->
-<a href="cagliostro.html" style="text-decoration: none">
-	<div class="chrPreview cagSel"><div><span>Cagliostro</span></div></div>
-</a>
-<!-- Yuel -->
-<a href="yuel.html" style="text-decoration: none">
-	<div class="chrPreview yuelSel"><div><span>Yuel</span></div></div>
-</a>
-<!-- Anre -->
-<a href="anre.html" style="text-decoration: none">
-	<div class="chrPreview anreSel"><div><span>Anre</span></div></div>
-</a>
-<!-- Eustace -->
-<a href="eustace.html" style="text-decoration: none">
-	<div class="chrPreview eustaceSel"><div><span>Eustace</span></div></div>
-</a>
-<!-- Seox -->
-<a href="seox.html" style="text-decoration: none">
-	<div class="chrPreview seoxSel"><div><span>Seox</span></div></div>
-</a>
-<!-- Vira -->
-<a href="vira.html" style="text-decoration: none">
-	<div class="chrPreview viraSel"><div><span>Vira</span></div></div>
-</a>
-<!-- Anila -->
-<a href="anila.html" style="text-decoration: none">
-	<div class="chrPreview anilaSel"><div><span>Anila</span></div></div>
-</a>
-<!-- Siegfried -->
-<a href="siegfried.html" style="text-decoration: none">
-	<div class="chrPreview siegSel"><div><span>Siegfried</span></div></div>
-</a>
-<!-- Grimnir -->
-<a href="grimnir.html" style="text-decoration: none">
-	<div class="chrPreview grimnirSel"><div><span>Grimnir</span></div></div>
-</a>
-<!-- Nier -->
-<a href="nier.html" style="text-decoration: none">
-	<div class="chrPreview nierSel"><div><span>Nier</span></div></div>
-</a>
-<!-- Beelzebub -->
-<a href="beelzebub.html" style="text-decoration: none">
-	<div class="chrPreview bubsSel"><div><span>Beelzebub</span></div></div>
-</a>
-<!-- Belial -->
-<a href="belial.html" style="text-decoration: none">
-	<div class="chrPreview belialSel"><div><span>Belial</span></div></div>
-</a>
-<!-- Avatar Belial -->
-<a href="avatarBelial.html" style="text-decoration: none">
-	<div class="chrPreview aBelialSel"><div><span>Avatar Belial</span></div></div>
-</a>
-<!-- Lucilius -->
-<a href="lucilius.html" style="text-decoration: none">
-	<div class="chrPreview luciSel"><div><span>Lucilius</span></div></div>
-</a>
-<!-- 2B -->
-<a href="2B.html" style="text-decoration: none">
-	<div class="chrPreview twoBSel"><div><span>2B</span></div></div>
-</a>
-<!-- Vane -->
-<a href="vane.html" style="text-decoration: none">
-	<div class="chrPreview vaneSel"><div><span>Vane</span></div></div>
-</a>
-<!-- Beatrix -->
-<a href="beatrix.html" style="text-decoration: none">
-	<div class="chrPreview beaSel"><div><span>Beatrix</span></div></div>
-</a>
-<!-- Versusia -->
-<a href="versusia.html" style="text-decoration: none">
-	<div class="chrPreview versusSel"><div><span>Versusia</span></div></div>
-</a>
-`;
+<div class="selectbox-container">
+	<a href="Zeta.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Zeta_icon.webp">
+		</div>
+	</a>
+	<a href="Vaseraga.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Vaseraga_icon.webp">
+		</div>
+	</a>
+	<a href="Beatrix.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Beatrix_icon.webp">
+		</div>
+	</a>
+	<a href="Eustace.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Eustace_icon.webp">
+		</div>
+	</a>
+	<a href="Anre.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Anre_icon.webp">
+		</div>
+	</a>
+	<a href="Seox.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Seox_icon.webp">
+		</div>
+	</a>
+	<a href="Lancelot.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Lancelot_icon.webp">
+		</div>
+	</a>
+	<a href="Vane.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Vane_icon.webp">
+		</div>
+	</a>
+	<a href="Percival.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Percival_icon.webp">
+		</div>
+	</a>
+	<a href="Siegfried.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Siegfried_icon.webp">
+		</div>
+	</a>
+	<a href="Versusia.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Versusia_icon.webp">
+		</div>
+	</a>
+	<a href="Zooey.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Zooey_icon.webp">
+		</div>
+	</a>
+	<a href="Ladiva.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Ladiva_icon.webp">
+		</div>
+	</a>
+	<a href="Narmaya.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Narmaya_icon.webp">
+		</div>
+	</a>
+	<a href="Gran.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Gran_icon.webp">
+		</div>
+	</a>
+	<a href="Djeeta.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Djeeta_icon.webp">
+		</div>
+	</a>
+	<a href="Charlotta.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Charlotta_icon.webp">
+		</div>
+	</a>
+	<a href="Ferry.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Ferry_icon.webp">
+		</div>
+	</a>
+	<a href="Anila.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Anila_icon.webp">
+		</div>
+	</a>
+	<a href="Vikala.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Vikala_icon.webp">
+		</div>
+	</a>
+	<div class="selectbox-spacer"></div>
+	<a href="Grimnir.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Grimnir_icon.webp">
+		</div>
+	</a>
+	<a href="Metera.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Metera_icon.webp">
+		</div>
+	</a>
+	<a href="Lowain.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Lowain_icon.webp">
+		</div>
+	</a>
+	<a href="Katalina.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Katalina_icon.webp">
+		</div>
+	</a>
+	<a href="Vira.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Vira_icon.webp">
+		</div>
+	</a>
+	<a href="Yuel.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Yuel_icon.webp">
+		</div>
+	</a>
+	<a href="Soriz.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Soriz_icon.webp">
+		</div>
+	</a>
+	<a href="Cagliostro.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Cagliostro_icon.webp">
+		</div>
+	</a>
+	<div class="selectbox-spacer"></div>
+	<a href="Nier.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Nier_icon.webp">
+		</div>
+	</a>
+	<a href="Belial.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Belial_icon.webp">
+		</div>
+	</a>
+	<a href="Beelzebub.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Beelzebub_icon.webp">
+		</div>
+	</a>
+	<a href="Lucilius.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Lucilius_icon.webp">
+		</div>
+	</a>
+	<a href="Avatar_Belial.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/Avatar_Belial_icon.webp">
+		</div>
+	</a>
+	<a href="2B.html">
+		<div class="selectbox selectbox-character">
+			<img src="../../img/characterSelect/gbvsr/2B_icon.webp">
+		</div>
+	</a>
+	<a href="Random_Character.html" style="margin: 0px 239px">
+		<div class="selectbox selectbox-character" style="width: 216px; height: 89px">
+			<img src="../../img/characterSelect/gbvsr/Random_icon.webp" style="width: 216px; height: 89px">
+		</div>
+	</a>
+</div>
+`

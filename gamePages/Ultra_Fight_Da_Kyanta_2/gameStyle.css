@@ -1,0 +1,25 @@
+body {
+	background-image: ;
+}
+
+.attack {
+	font-weight: bold;
+}
+
+/* Character select */
+
+.selectbox-character img {
+	display: block;
+	width: 56px;
+}
+
+.chrSelection {
+	display: block;
+}
+
+.selectbox-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: calc(56px * 6);
+}

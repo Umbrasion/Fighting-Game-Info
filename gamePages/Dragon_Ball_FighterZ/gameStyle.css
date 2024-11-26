@@ -1,0 +1,30 @@
+body {
+	background-image: url("../../img/dragonBallFighterZ/background.png");
+}
+
+.attack {
+	
+}
+
+/* Character select */
+
+.chrSelection {
+	display: block;
+	margin: 0px;
+}
+
+.selectbox-container, .selectbox-fullroster {
+	max-width: 100%;
+}
+
+.selectbox-positioner {
+	pointer-events: none;
+	position: relative;
+	width: 0px;
+	height: 0px;
+}
+
+.selectbox-character img {
+	transition: transform 0.3s;
+	transform-origin: center;
+}
