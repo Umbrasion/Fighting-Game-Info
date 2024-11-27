@@ -32,6 +32,13 @@ header {
 	height: fit-content;
 }
 
+footer {
+	font-size: 0.9em;
+	color: #C6C6C6;
+	background-color: #0C0C12;
+	padding: 20px;
+}
+
 .noNavContainer {
 	
 }
@@ -176,6 +183,34 @@ main ul ul {
 	padding: 10px;
 	box-shadow: #1A1A1E 5px 5px 5px;
 	margin: 10px 5px;
+}
+
+.gameinfo-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: left;
+}
+
+.gameinfo-topicbox {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	width: 200px;
+}
+
+.gameinfo-topicbox img {
+	display: block;
+	width: 64px;
+	height: 64px;
+}
+
+.gameinfo-topicbox-text {
+	
+}
+
+.gameinfo-topicbox-text a {
+	vertical-align: middle;
 }
 
 #characters {
